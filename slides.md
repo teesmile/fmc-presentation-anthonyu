@@ -1,36 +1,102 @@
 ---
 theme: seriph
-background: "https://github.com/teesmile/fmc-presentation-anthonyu/blob/master/images/newcover.png"
+background: "#ffffff"  
 title: Basics of Antimicrobial Stewardship in Hospitals
 info: |
   ## Pharmacist Interns Presentation.
-class: text-center font-mont
+class: text-center
 drawings:
   persist: false
 transition: slide-left
 mdc: true
 setup: |
   import DecoratedLayout from './components/DecoratedLayout.vue'
+  <!-- Add shape components -->
+  import CircleShape from './components/CircleShape.vue'
+  import PillShape from './components/PillShape.vue'
 head: |
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
   <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
+    /* Global Arial font with 700 weight */
+    body, .slidev-layout {
+      font-family: Arial, sans-serif !important;
+      font-weight: 600 !important;
     }
-    .gradient-text {
-      background: linear-gradient(90deg, #227C99, #f59e0b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    
+    /* Override for specific elements */
+    h1 {
+      font-weight: 800 !important; /* Extra bold for headings */
+    }
+    .author-name {
+      font-weight: 600 !important;
     }
   </style>
 ---
-# [Basics of Antimicrobial Stewardship in Hospitals]{.gradient-text}
+<style>
+.gradient-text {
+  background: linear-gradient(45deg, rgb(5, 92, 121), rgb(6, 125, 165));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-**Ugwuja Anthony C.**
+}
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures full coverage */
+  z-index: 0;
+  opacity: 1;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 0;
+  padding: 2rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 0%;
+  transform: translateY(-30px);
+}
+
+.next-button {
+  margin-top: 1.2rem;
+  display: inline-block;
+
+  padding: 0.5rem 0.5rem;
+  background-color: rgba(3, 80, 105, 0.8);
+  color: white !important;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  
+}
+.author-name {
+  color: #666;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.next-button:hover {
+  background-color: rgb(3, 80, 105);
+}
+</style>
+
+<!-- Full-size background image -->
+
+<img src="./images/whitebg.png" class="background-image">
+
+<!-- Content container -->
+<div class="content-wrapper">
+
+  # [Basics of Antimicrobial Stewardship in Hospitals]{.gradient-text}
+
+<div @click="$slidev.nav.next" class="author-name next-button">
+   Ugwuja Anthony C.  <carbon:arrow-right />
+  </div>
 </div>
+
 
 ---
 layout: DecoratedLayout
@@ -50,7 +116,7 @@ Antimicrobial stewardship (AMS) promotes the responsible use of antibiotics to c
 
 <style>
     .gradient-text {
-      background: linear-gradient(45deg, #4EC5D4 10%, #008080 20%);
+      background: linear-gradient(45deg, rgb(5, 92, 121), rgb(6, 125, 165));
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
