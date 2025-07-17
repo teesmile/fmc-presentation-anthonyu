@@ -1,28 +1,34 @@
 ---
 theme: seriph
-background: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1744&auto=format&fit=crop"
-# some information about your slides (markdown enabled)
-title: AltSchool Frontend Circle 5
+layout: cover
+background: "/images/newcover.png"
+title: Basics of Antimicrobial Stewardship in Hospitals
 info: |
-  ## Assignment Presentation.
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
+  ## Pharmacist Interns Presentation.
+class: text-center font-mont
 drawings:
   persist: false
 transition: slide-left
 mdc: true
+head: |
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
 ---
 
-# AltSchool Frontend Circle 5
+# Basics of Antimicrobial Stewardship in Hospitals
 
-**Assignment Presentation**
+**Ugwuja Anthony C.**
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
 </div>
 
 ---
+
 
 # [Table of contents]{.gradient-text}
 
@@ -37,7 +43,7 @@ mdc: true
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 1.5em; 
+      font-size: 2.5em; 
     }
    
 </style>
