@@ -1,7 +1,6 @@
 ---
 theme: seriph
-layout: cover
-background: "/images/newcover.png"
+background: "https://github.com/teesmile/fmc-presentation-anthonyu/blob/master/images/newcover.png"
 title: Basics of Antimicrobial Stewardship in Hospitals
 info: |
   ## Pharmacist Interns Presentation.
@@ -10,16 +9,22 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+setup: |
+  import DecoratedLayout from './components/DecoratedLayout.vue'
 head: |
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
     }
+    .gradient-text {
+      background: linear-gradient(90deg, #227C99, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   </style>
 ---
-
-# Basics of Antimicrobial Stewardship in Hospitals
+# [Basics of Antimicrobial Stewardship in Hospitals]{.gradient-text}
 
 **Ugwuja Anthony C.**
 
@@ -28,6 +33,13 @@ head: |
 </div>
 
 ---
+layout: DecoratedLayout
+class: text-center font-mont
+---
+
+# What is Antimicrobial Stewardship?
+
+Antimicrobial stewardship (AMS) promotes the responsible use of antibiotics to combat resistance.
 
 
 # [Table of contents]{.gradient-text}
