@@ -14,6 +14,8 @@ fonts:
   
 background: "#ffffff"  
 title: Basics of Antimicrobial Stewardship in Hospitals
+description: Slide Presentation on Antimicrobial Stewardship Practice in hospital settings
+image: "./images/stats.png"
 info: |
   ## Pharmacist Interns Presentation.
 class: text-center
