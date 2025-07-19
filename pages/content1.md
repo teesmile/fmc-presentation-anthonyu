@@ -28,7 +28,9 @@ class: flex items-center
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-size: 2em;
+  font-size: 2.5em;
+  line-height:1.2;
+  font-weight: 900;
 }
 
 /* Remove white edges from transparent PNG */
@@ -44,7 +46,20 @@ layout: default
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Antimicrobial Resistance]{.text-teal-600}
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+</style>
+
+## [Antimicrobial Resistance]{.gradient-heading}
 
 <br>
 <v-clicks>
@@ -72,7 +87,7 @@ layout: default
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## Resistance Mechanisms
+## [Resistance Mechanisms]{.gradient-heading}
 
 <v-clicks>
 
@@ -97,7 +112,7 @@ layout: default
 layout: default
 ---
 
-## Key Drivers of AMR
+## [Key Drivers of AMR]{.gradient-heading}
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />

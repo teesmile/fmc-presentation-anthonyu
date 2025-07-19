@@ -1,9 +1,22 @@
 
 
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+</style>
+
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## WHO AWaRe Classification
+## [WHO AWaRe Classification]{.gradient-heading}
 
 <br>
 <v-clicks>
@@ -20,7 +33,7 @@
 
 <div class="border-r border-gray-200 pr-4">
 
-## Access Group
+## [Access Group]{.gradient-heading}
 
 **First-line narrow-spectrum**  
 
@@ -42,7 +55,7 @@
 
 <div class="border-r border-gray-200 pr-4">
 
-## Watch Group
+## [Watch Group]{.gradient-heading}
 
 **Higher resistance potential**  
 <div class="text-sm mt-2 pl-4">
@@ -66,7 +79,7 @@
 
 <div>
 
-## Reserve Group
+## [Reserve Group]{.gradient-heading}
 
 **Last-resort agents**  
 <div class="text-sm mt-2 pl-4">

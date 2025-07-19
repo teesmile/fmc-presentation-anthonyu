@@ -1,5 +1,17 @@
 ---
 theme: seriph
+
+fonts:
+  # basically the text
+    sans: Robot
+  # default
+    weights: '400,600,800'
+  # import italic fonts, default `false`
+    italic: true
+  # use with `font-serif` css class from UnoCSS
+ 
+
+  
 background: "#ffffff"  
 title: Basics of Antimicrobial Stewardship in Hospitals
 info: |
@@ -37,6 +49,8 @@ head: |
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height:1.2;
+  font-weight: 900;
 }
 
 .background-image {
@@ -123,19 +137,17 @@ src: ./pages/content3.md
 
 ---
 src: ./pages/content4.md
+---
 
-
-<!-- Slides for month2 week2 -->
-
-<!-- ---
-src: ./pages/mth2-wk2.md
---- -->
+---
+src: ./pages/content5.md
+---
 
 <!-- Slides for month2 week3 -->
 
-<!-- ---
-src: ./pages/mth2-wk3.md
---- -->
+---
+src: ./pages/content6.md
+
 
 <!-- Slides for month2 week4 -->
 
@@ -155,12 +167,14 @@ src: ./pages/extra-class1.md
 src: ./pages/extra-class2.md
 --- -->
 
+
 ---
 layout: center
 transition: fade-out
+class: flex items-center
 ---
 
-# [Thank You!]{.gradient-text}
+# [Thanks For Listening!]{.gradient-text}
 
 Questions and Discussions
 

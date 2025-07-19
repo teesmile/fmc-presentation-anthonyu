@@ -3,6 +3,7 @@ layout: center
 transition: fade-out
 ---
 
+
 # [AMS Techniques]{.gradient-text}
 
 <!-- CSS styling for .gradient-text class -->
@@ -14,6 +15,8 @@ transition: fade-out
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
       font-size: 2em; 
+      line-height:1.2;
+      font-weight: 900;
     }
    
 </style>
@@ -21,10 +24,33 @@ transition: fade-out
 ---
 layout: default
 ---
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.gradient-subheading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+</style>
+
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Front-End vs Back-End Interventions]{.text-teal-400}
+## [Front-End vs Back-End Interventions]{.gradient-heading}
 
 <br>
 
@@ -35,7 +61,7 @@ layout: default
 <v-click>
 <div class="border-r border-gray-200 pr-4">
 
-### 🔒 Front-End Strategy (Pre-Authorization)
+### 🔒 [Front-End Strategy (Pre-Authorization)]{.gradient-subheading}
 
 Approval are required before prescribing certain antibiotics  
 
@@ -62,7 +88,7 @@ Restrict Reserve antibiotics like carbapenems
 
 <div class="pl-4">
 
-### 🔍 Back-End Strategy (Audit & Feedback)
+### 🔍 [Back-End Strategy (Audit & Feedback)]{.gradient-subheading}
 
 This is the Review of antibiotic use after initiation  
 
@@ -92,7 +118,7 @@ layout: default
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## Evidence & Outcomes
+## [Evidence & Outcomes]{.gradient-heading}
 
 <v-clicks>
 
@@ -117,7 +143,7 @@ layout: default
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 
-## The “4 Ds” of Antimicrobial Prescribing
+## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
 
 
 <div class="mt-12 grid grid-cols-2 gap-8">
@@ -126,7 +152,7 @@ layout: default
 <v-click>
 <div class="mt-5 pr-4">
 
-### 💊 1. Right Drug
+### 💊 1.[Right Drug]{.gradient-subheading}
 
 - Select the most targeted antimicrobial/antibiotic for the infection.
 
@@ -139,7 +165,7 @@ layout: default
 <v-click>
 <div class="mt-5 pl-4">
 
-### 📏 2. Right Dose
+### 📏 2. [Right Dose]{.gradient-subheading}
 
 - Tailor the dose to:
 
@@ -164,7 +190,7 @@ layout: default
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 
-## The “4 Ds” of Antimicrobial Prescribing
+## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
 
 <div class="mt-12 grid grid-cols-2 gap-8">
 
@@ -172,7 +198,7 @@ layout: default
 <v-click>
 <div class="pr-4">
 
-### ⏳ 3. Right Duration
+### ⏳ 3. [Right Duration]{.gradient-subheading}
 
 - Prescribe for the shortest effective course possible.
 
@@ -189,7 +215,7 @@ layout: default
 <v-click>
 <div class="pl-4">
 
-### 🔄 4. De-escalation
+### 🔄 4. [De-escalation ]{.gradient-subheading}
 
 - Once culture and susceptibility results are available:
 
