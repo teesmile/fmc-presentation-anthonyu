@@ -1,6 +1,32 @@
-
+---
+layout: default
+---
 
 <style>
+/* Targeted bullet styling only for the WHO point */
+#aware-bullet {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+#aware-bullet li {
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 600; /* Bolder text */
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+#aware-bullet li::before {
+  content: "•";
+  color: rgb(9, 131, 172); /* Your theme color */
+  font-size: 1.8em;
+  position: absolute;
+  left: -0.8em;
+  top: -0.4em;
+  font-weight: bold;
+}
+
 .gradient-heading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
@@ -11,6 +37,11 @@
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
+
+/* Make medicine list items bolder */
+.text-sm ol li {
+  font-weight: 500;
+}
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
@@ -20,24 +51,18 @@
 
 <br>
 <v-clicks>
-
-- WHO groups antibiotics into **Access**, **Watch**, and **Reserve** to guide usage.
-
+<ul id="aware-bullet">
+  <li>WHO groups antibiotics into <strong>Access</strong>, <strong>Watch</strong>, and <strong>Reserve</strong> to guide usage.</li>
+</ul>
 </v-clicks>
 
-
 <div class="mt-8 grid grid-cols-3 gap-8">
-
-<!-- Column 1: Access Group -->
-<v-click>
-
-<div class="border-r border-gray-200 pr-4">
-
-## [Access Group]{.gradient-heading}
-
-**First-line narrow-spectrum**  
-
-<div class="text-sm mt-2 pl-4">
+  <!-- Column 1: Access Group -->
+  <v-click>
+    <div class="border-r border-gray-200 pr-4">
+      <h2 class="gradient-heading">Access Group</h2>
+      <p class="font-semibold">First-line narrow-spectrum</p>
+      <div class="text-sm mt-2 pl-4">
 <ol>
 <li>Amoxicillin <span class="text-xs text-gray-500">(e.g., Amoxil®)</span></li>
 <li>Cotrimoxazole <span class="text-xs text-gray-500">(Septrin®)</span></li>

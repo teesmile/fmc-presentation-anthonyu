@@ -23,17 +23,18 @@ transition: fade-out
 
 ---
 layout: default
+class: px-8 py-4
 ---
+
 <style>
 .gradient-heading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .gradient-subheading {
@@ -41,76 +42,250 @@ layout: default
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size:3rem;
+}
+
+.intervention-container {
+  display: flex;
+  height: 72vh;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 1.5rem;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-section {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.icon-header {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.bullet-list {
+  list-style: none;
+  padding-left: 1.8rem;
+}
+
+.bullet-list li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.bullet-list li::before {
+  content: "•";
+  color: rgb(9, 131, 172);
+  font-size: 2rem;
+  position: absolute;
+  left: -1.2rem;
+  top: -0.3rem;
+}
+
+.pros-cons {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 0.5rem 0;
+}
+
+.pros-cons p {
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.highlight-box {
+  background: rgba(9, 131, 172, 0.15);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: auto;
 }
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Front-End vs Back-End Interventions]{.gradient-heading}
+# [Front-End Interventions]{.gradient-heading}
+## [Pre-Authorization Strategy]{.gradient-subheading}
 
-<br>
+<div class="intervention-container">
+  <!-- Left Column -->
+  <div class="left-column p-4">
+    <div class="icon-header">🔒</div>
+    <h3 class="text-2xl font-bold mb-4">Approval Required Before Prescribing</h3>
+    
+   <div class="card-section">
+      <p class="font-semibold mb-2">Who approves:</p>
+      <ul class="bullet-list">
+        <li>Medical Doctor</li>
+        <li>Pharmacist</li>
+      </ul>
+    </div>
+  </div>
 
+  <!-- Right Column -->
+  <div class="right-column">
+    <div class="pros-cons">
+      <p class="font-bold text-green-500 text-xl mb-3">Pros:</p>
+      <p>✓ Immediate control of high-risk drugs</p>
+      <p>✓ Prevents inappropriate use upfront</p>
+      
+   <p class="font-bold text-red-500 text-xl mt-6 mb-3">Cons:</p>
+      <p>✗ May delay therapy in emergencies</p>
+      <p>✗ Adds administrative burden</p>
+    </div>
 
-<div class="grid grid-cols-2 gap-8">
-
-<!-- Left Column: Pre-Authorization -->
-<v-click>
-<div class="border-r border-gray-200 pr-4">
-
-### 🔒 [Front-End Strategy (Pre-Authorization)]{.gradient-subheading}
-
-Approval are required before prescribing certain antibiotics  
-
-**Who approves:**  
-• Medical Doctor
-• Pharmacist  
-
-**Pros:**  
-✓ Immediate control of high-risk drugs  
-✓ Prevents inappropriate use upfront  
-
-**Cons:**  
-✗ May delay therapy in emergencies  
-✗ Adds administrative burden  
-
-**Example:**  
-Restrict Reserve antibiotics like carbapenems  
+  <div class="highlight-box">
+      <p class="font-bold text-lg mb-2">Example:</p>
+      <p class="text-xl">Restrict Reserve antibiotics like carbapenems</p>
+    </div>
+  </div>
 </div>
 
-</v-click>
+---
+layout: default
+class: px-8 py-4
+---
 
-<!-- Right Column: Audit & Feedback -->
-<v-click>
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 0.2rem;
+}
 
-<div class="pl-4">
+.gradient-subheading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 3rem;
+}
 
-### 🔍 [Back-End Strategy (Audit & Feedback)]{.gradient-subheading}
+.intervention-container {
+  display: flex;
+  height: 72vh;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+}
 
-This is the Review of antibiotic use after initiation  
+.left-column {
+  flex: 1;
+  padding-right: 1.5rem;
+}
 
-**Who reviews:**  
-• Pharmacist  
-• Stewardship team  
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-**Pros:**  
-✓ Prescriber autonomy is preserved  
-✓ High acceptance and educational value  
+.card-section {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
 
-**Cons:**  
-✗ Labor-intensive  
-✗ Slower impact (48–72 hours)  
+.icon-header {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
 
-**Example:**  
-Daily "time-out" rounds in ICU  
+.bullet-list {
+  list-style: none;
+  padding-left: 1.8rem;
+}
+
+.bullet-list li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.bullet-list li::before {
+  content: "•";
+  color: rgb(9, 131, 172);
+  font-size: 2rem;
+  position: absolute;
+  left: -1.2rem;
+  top: -0.3rem;
+}
+
+.pros-cons {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 0.5rem 0;
+}
+
+.pros-cons p {
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.highlight-box {
+  background: rgba(9, 131, 172, 0.15);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: auto;
+}
+</style>
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+# [Back-End Interventions]{.gradient-heading}
+## [Audit & Feedback Strategy]{.gradient-subheading}
+
+<div class="intervention-container">
+  <!-- Left Column -->
+  <div class="left-column p-4">
+    <div class="icon-header">🔍</div>
+    <h3 class="text-2xl font-bold mb-4">Review After Antibiotic Initiation</h3>
+    
+   <div class="card-section">
+      <p class="font-semibold mb-2">Who reviews:</p>
+      <ul class="bullet-list">
+        <li>Pharmacist</li>
+        <li>Stewardship team</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Right Column -->
+  <div class="right-column">
+    <div class="pros-cons">
+      <p class="font-bold text-green-500 text-xl mb-3">Pros:</p>
+      <p>✓ Prescriber autonomy preserved</p>
+      <p>✓ High educational value</p>
+      
+   <p class="font-bold text-red-500 text-xl mt-6 mb-3">Cons:</p>
+      <p>✗ Labor-intensive</p>
+      <p>✗ Slower impact (48-72h)</p>
+    </div>
+
+   <div class="highlight-box">
+      <p class="font-bold text-lg mb-2">Example:</p>
+      <p class="text-xl">Daily "time-out" rounds in ICU</p>
+    </div>
+  </div>
 </div>
-</v-click>
-
-</div>
-
 ---
 layout: default
 ---

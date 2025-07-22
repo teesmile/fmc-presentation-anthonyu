@@ -416,9 +416,10 @@ text: white
 .slidev-vclick-target {
   transition: all 0.3s ease;
 }
-ul {
+ul li{
   list-style: none;
   padding-left: 0;
+  font-weight: 600;
 }
 </style>
 
