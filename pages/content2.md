@@ -47,7 +47,7 @@ layout: default
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [WHO AWaRe Classification]{.gradient-heading}
+## [WHO AWaRe Classification for Antimicrobials/Antibiotics]{.gradient-heading}
 
 <br>
 <v-clicks>

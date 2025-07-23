@@ -1,153 +1,82 @@
 ---
 layout: center
-transition: fade-out
-class: flex items-center
----
-
-<div class="w-full flex justify-center items-center gap-4">
-  <!-- Text Content -->
-  <div class="text-center">
-    <h1 class="gradient-text mb-2">What is AMR?</h1>
-  </div>
-  
-  <!-- Image Container -->
-  <div class="w-[25%]">
-    <img 
-      src="/images/question.png" 
-      class="w-full h-auto" 
-      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
-    >
-  </div>
-</div>
-
-
-<style>
-.gradient-text {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-size: 2.5em;
-  line-height:1.2;
-  font-weight: 900;
-}
-
-/* Remove white edges from transparent PNG */
-img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-}
-</style>
-
----
-layout: default
-class: px-8 py-6
+class: px-10 py-8
+background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
+text: white
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 <style>
-/* Enhanced heading */
 .gradient-heading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin: 0 0 1.5rem 0;
-  line-height: 1.3;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
+</style>
 
-/* Bullet list container */
+<div class="w-full h-full flex flex-col justify-center">
+
+## Historical Evolution of Antimicrobial Stewardship Programs (ASPs){.gradient-heading}
+
+<div class="bg-white bg-opacity-10 p-8 rounded-xl">
+<v-clicks>
+
+<ul class="space-y-4 text-xl">
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">1940s:</span> Sir Alexander Fleming warned about emerging antibiotic resistance</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">1996-97:</span> Term "Antimicrobial Stewardship" was coined by McGowan & Gerding; Incorporated into IDSA guidelines.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">2007:</span> IDSA/SHEA formally endorse Hospital ASPs as a core strategy.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">2009-13:</span> CDC launches US national stewardship initiatives (Education -> Formal Strategy).</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">2016:</span> WHO & UN General Assembly endorse global ASP; WHO issues toolkits.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">Mid-2010s Onwards:</span> Accreditation bodies & governments (e.g., EU 2017) mandate ASPs globally.</span>
+</li>
+</ul>
+
+</v-clicks>
+</div>
+
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
 ul {
   list-style: none;
   padding-left: 0;
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-/* Bullet points */
-li {
-  position: relative;
-  padding-left: 1.75rem;
-  margin-bottom: 1rem;
-}
-
-li::before {
-  content: "•";
-  color: rgb(9, 131, 172); /* Your theme color */
-  font-size: 1.8rem;
-  position: absolute;
-  left: 0;
-  top: -0.1rem;
-}
-
-/* Slide content container */
-.slidev-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-
-/* Text emphasis */
-strong {
-  font-weight: 600;
-}
-</style>
-
-## [Antimicrobial Resistance]{.gradient-heading}
-
-<v-clicks>
-
-- **Antimicrobial Resistance (AMR)** occurs when bacteria, viruses, fungi and parasites no longer respond to antimicrobial medicines (WHO).
-<br>
-- **1.27 million deaths** directly attributed to drug-resistant infections in 2019; **~5 million deaths** associated overall (Murray et al., 2022).
-<br>
-- In **Nigeria alone**, ≈263,000 AMR-related deaths in 2019 surpassing malaria and respiratory infections locally (Murray et al., 2022).
-<br>
-- **Why does it matter?**
-
-</v-clicks>
-
----
-layout: default
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## [Resistance Mechanisms]{.gradient-heading}
-
-<v-clicks>
-
-<div class="w-[84%] ml-[6%]">
-    <img 
-      src="/images/AMRmech.png" 
-      class="w-full h-auto" 
-      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
-    >
-  </div>
-
-</v-clicks>
-
-<style>
-  img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
 }
 </style>
 
 ---
-layout: default
-class: px-6
+layout: center
+class: px-10 py-8
+background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
+text: white
 ---
-
-## [Key Drivers of AMR]{.gradient-heading}
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
@@ -158,65 +87,134 @@ class: px-6
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: 700;
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
-.driver-card h2 {
-  color: rgb(9, 131, 172); /* Theme color */
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin: 0.2rem 0;
-}
-
-.driver-card p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  font-weight: 500;
-  opacity: 0.9;
-}
-
-.emoji-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  margin-top: 4rem;
 }
 </style>
 
-<div class="mt-2 grid grid-cols-2 gap-2 h-full">
-  <!-- Upper Left -->
-  <div class="driver-card p-3 rounded-lg">
-    <v-click>
-      <div class="emoji-icon">⚖️</div>
-      <h2>Overuse & Misuse</h2>
-      <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p>
-    </v-click>
-  </div>
+<div class="w-full h-full flex flex-col justify-center">
 
-  <!-- Upper Right -->
-  <div class="driver-card p-5 rounded-lg">
-    <v-click at="2">
-      <div class="emoji-icon">🐄</div>
-      <h2>Agricultural Use</h2>
-      <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O’Neill Review, 2016).</p>
-    </v-click>
-  </div>
+## Nigeria's National Antimicrobial Resistance (AMR) Response{.gradient-heading}
 
-  <!-- Lower Left -->
-  <div class="driver-card p-5 rounded-lg">
-    <v-click at="3">
-      <div class="emoji-icon">🏥</div>
-      <h2>Infection Control</h2>
-      <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p>
-    </v-click>
-  </div>
+<div class="bg-white bg-opacity-10 p-6 rounded-xl">
+<v-clicks>
 
-  <!-- Lower Right -->
-  <div class="driver-card p-5 rounded-lg">
-    <v-click at="4">
-      <div class="emoji-icon">💊</div>
-      <h2>Innovation Gap</h2>
-      <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021)</p>
-    </v-click>
-  </div>
+<ul class="space-y-2 text-xl">
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">2017-22:</span> Launch of 1st National Action Plan (NAP-1.0) on AMR (One Health: Human, Animal, Env.).</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span>NAP-1.0 Mid-term Review: ~44% activities completed; Gaps identified (e.g., weak environmental/agricultural involvement).</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 text-blue-300">•</span>
+  <span><span class="font-bold">Oct 2024:</span> Launch of NAP-2.0 (2024-2028) - Aligns with UN/Global Health Security.</span>
+</li>
+<li class="flex items-start mt-6">
+  <span class="mr-3 text-blue-300">•</span>
+  <span class="font-bold">NAP-2.0 Priorities:</span>
+</li>
+<li class="flex items-start ml-8">
+  <span class="mr-3 text-blue-300">-</span>
+  <span>Strengthen ASPs</span>
+</li>
+<li class="flex items-start ml-8">
+  <span class="mr-3 text-blue-300">-</span>
+  <span>Enhance AMR Surveillance</span>
+</li>
+<li class="flex items-start ml-8">
+  <span class="mr-3 text-blue-300">-</span>
+  <span>Promote Research</span>
+</li>
+<li class="flex items-start ml-8">
+  <span class="mr-3 text-blue-300">-</span>
+  <span>Bolster Health Systems (One Health)</span>
+</li>
+</ul>
+
+</v-clicks>
 </div>
+
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+</style>
+
+---
+layout: center
+class: px-10 py-8
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+</style>
+
+<div class="w-full h-full flex flex-col justify-center">
+
+## ASP Implementation in Nigerian Hospitals so far{.gradient-heading}
+
+<div class="bg-white bg-opacity-10 p-8 rounded-xl">
+<v-clicks>
+
+<ul class="space-y-4 text-lg leading-relaxed">
+<li class="flex items-start">
+  <span class="mr-3 ">•</span>
+  <span>Only <span class="font-bold">13% to 35%</span> of Nigerian tertiary hospitals have formal ASP teams/committees (Ohaju-Obodo et al., 2020).</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 ">•</span>
+  <span>Critical gaps exist: <span class="font-bold">~24%</span> have local treatment guidelines & only <span class="font-bold">~12%</span> enforce mandatory antibiotic review/approval.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3 ">•</span>
+  <span>Pharmacists commonly perform <span class="italic">ad-hoc</span> stewardship (e.g., prescription review) despite lacking formal ASP programs (Ogunnigbo et al., 2021).</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3">•</span>
+  <span>Key barriers: Insufficient AMS/Prof. training, shortage of Prof-specialized pharmacists, & weak administrative support.</span>
+</li>
+<li class="flex items-start">
+  <span class="mr-3">•</span>
+  <span class="font-bold">Nigerian hospitals show "significant inadequacies" in ASP implementation.</span>
+</li>
+</ul>
+
+</v-clicks>
+</div>
+
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
+ul li{
+  list-style: none;
+  padding-left: 0;
+  font-weight: 600;
+}
+</style>

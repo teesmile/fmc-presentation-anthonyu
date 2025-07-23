@@ -117,13 +117,9 @@ head: |
 src: ./pages/background.md
 ---
 
-<!-- Slides for month1 week2 -->
-
 ---
-src: ./pages/content1.md
+src: /pages/content1.md
 ---
-
-<!-- Slides for month1 week3 -->
 
 ---
 src: ./pages/content2.md
@@ -189,6 +185,8 @@ Questions and Discussions
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
       font-size: 2em; 
+      margin: 0;
+      text-align: center;
     }
    
 </style>

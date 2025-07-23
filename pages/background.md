@@ -1,5 +1,175 @@
 ---
 layout: center
+class: px-8 py-6 text-center
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+# [Team Members]{.gradient-heading}
+
+<div class="flex flex-col items-center space-y-4 mt-4">
+
+<!-- Row 1 (2 members) -->
+<div class="flex justify-center space-x-8">
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍⚕️</div>
+    <div class="font-bold">Pharm. Mrs.<br> Bara'atu</div>
+    <div class="text-sm text-gray-600">Supervisor</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
+    <div class="font-bold">Pharm. Anthony</div>
+    <div class="text-sm text-gray-600">Presenter</div>
+  </div>
+</div>
+
+<!-- Row 2 (3 members) -->
+<div class="flex justify-center space-x-8">
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🔬</div>
+    <div class="font-bold">Pharm Mrs.<br> Nenzarmwa</div>
+    <div class="text-sm text-gray-600">Microbiology</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
+    <div class="font-bold">Dr. F. Bello</div>
+    <div class="text-sm text-gray-600">Pharmacist</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🔬</div>
+    <div class="font-bold">Dr. I. Yusuf</div>
+    <div class="text-sm text-gray-600">Data Analyst</div>
+  </div>
+</div>
+
+<!-- Row 3 (4 members) -->
+<div class="flex justify-center space-x-6">
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍💻</div>
+    <div class="font-bold">Nurse G. Okafor</div>
+    <div class="text-sm text-gray-600">Infection Control</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
+    <div class="font-bold">Dr. E. Nwachukwu</div>
+    <div class="text-sm text-gray-600">Administrator</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
+    <div class="font-bold">Dr. Z. Abdul</div>
+    <div class="text-sm text-gray-600">Education</div>
+  </div>
+  
+  <div class="flex flex-col items-center">
+    <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🏫</div>
+    <div class="font-bold">Dr. O. Adeleke</div>
+    <div class="text-sm text-gray-600">Quality Assurance</div>
+  </div>
+</div>
+
+</div>
+
+---
+layout: center
+class: px-10 py-6
+background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 0.08))
+---
+
+<style>
+.toc-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.toc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 90%;
+}
+
+.toc-item {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toc-item:hover {
+  color: rgb(11, 104, 134);
+  transform: translateX(3px);
+}
+
+.toc-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: rgb(9, 131, 172);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.toc-item:hover::before {
+  background: rgb(11, 104, 134);
+  transform: scale(1.2);
+}
+
+.toc-divider {
+  border-left: 2px solid rgba(9, 131, 172, 0.3);
+  height: 1.2rem;
+  margin: 0.3rem 0 0.3rem 0.8rem;
+}
+</style>
+
+<CircleShape position="top:15%; left:-5%; size:60px; color:rgba(3, 80, 105, 0.4)" />
+<PillShape position="bottom:2%; right:2%; width:8%; height:16px; color:rgba(33,150,243,0.06)" />
+
+# [Contents]{.toc-heading}
+
+<div class="toc-container">
+
+<!-- Left Column -->
+<div>
+<div class="toc-item" @click="$slidev.nav.go(2)">1. Team Members</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(4)">2. Introduction</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(7)">3. Principles of Antimicrobial Stewardship</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(5)">4. Nigeria Statistics</div>
+</div>
+
+<!-- Right Column -->
+<div>
+<div class="toc-item" @click="$slidev.nav.go(6)">5. Front-End Strategies</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(7)">6. Back-End Approaches</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(8)">7. Implementation Barriers</div>
+<div class="toc-divider"></div>
+<div class="toc-item" @click="$slidev.nav.go(9)">8. Case Studies</div>
+</div>
+
+</div>
+
+---
+layout: center
 transition: fade-out
 setup: |
   import DecoratedLayout from './components/DecoratedLayout.vue'
@@ -7,7 +177,7 @@ setup: |
   import PillShape from './components/PillShape.vue'
 ---
 
-# [BACKGROUND ]{.gradient-text}
+# [INTRODUCTION ]{.gradient-text}
 
 <style>
     .gradient-text {
@@ -42,8 +212,283 @@ text: white
 <p style="font-size: 1.5rem; line-height: 2;">Antimicrobials are agents that either kill microorganisms (biocidal effect) or inhibit their growth (biostatic effect).</p>
 </div>
 
+
+</v-clicks>
+
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
+p {
+  margin-bottom: 1rem;
+}
+</style>
+
+---
+layout: default
+class: px-8 py-6
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<style>
+/* Enhanced heading */
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.3;
+}
+
+/* Bullet list container */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/* Bullet points */
+li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+li::before {
+  content: "•";
+  color: rgb(9, 131, 172); /* Your theme color */
+  font-size: 1.8rem;
+  position: absolute;
+  left: 0;
+  top: -0.1rem;
+}
+
+/* Slide content container */
+.slidev-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Text emphasis */
+strong {
+  font-weight: 600;
+}
+</style>
+
+## [Antimicrobial Resistance (AMR)]{.gradient-heading}
+
+<v-clicks>
+
+- **Antimicrobial Resistance (AMR)** occurs when bacteria, viruses, fungi and parasites no longer respond to antimicrobial medicines (WHO).
+<br>
+- **1.27 million deaths** directly attributed to drug-resistant infections in 2019; **~5 million deaths** associated overall (Murray et al., 2022).
+<br>
+- In **Nigeria alone**, ≈263,000 AMR-related deaths in 2019 surpassing malaria and respiratory infections locally (Murray et al., 2022).
+<br>
+
+
+</v-clicks>
+
+---
+layout: default
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+## [Resistance Mechanisms]{.gradient-heading}
+
+<v-clicks>
+
+<div class="w-[84%] ml-[6%]">
+    <img 
+      src="/images/AMRmech.png" 
+      class="w-full h-auto" 
+      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
+    >
+  </div>
+
+</v-clicks>
+
+<style>
+  img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+</style>
+
+---
+layout: default
+class: px-6 py-8
+---
+
+## [Key Drivers of AMR]{.gradient-heading}
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.driver-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.driver-row {
+  display: flex;
+  flex: 1;
+  gap: 0.1rem;
+}
+
+.driver-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.driver-card h2 {
+  color: rgb(9, 131, 172);
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.emoji-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+</style>
+
+<div class="driver-container">
+  <!-- Top Row -->
+  <div class="driver-row">
+    <!-- Upper Left -->
+    <div class="driver-card">
+      <v-click>
+        <div class="emoji-icon">⚖️</div>
+        <h2>Overuse & Misuse</h2>
+        <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
+      </v-click>
+    </div>
+
+    
+   <div class="driver-card">
+      <v-click at="2">
+        <div class="emoji-icon">🐄</div>
+        <h2>Agricultural Use</h2>
+        <!-- <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O'Neill Review, 2016).</p> -->
+      </v-click>
+    </div>
+  </div>
+
+
+  <div class="driver-row">
+ 
+  <div class="driver-card">
+      <v-click at="3">
+        <div class="emoji-icon">🏥</div>
+        <h2>Infection Control</h2>
+        <!-- <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p> -->
+      </v-click>
+    </div>
+
+    
+  <div class="driver-card">
+      <v-click at="4">
+        <div class="emoji-icon">💊</div>
+        <h2>Innovation Gap</h2>
+        <!-- <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021)</p> -->
+      </v-click>
+    </div>
+  </div>
+</div>
+
+
+---
+layout: center
+transition: fade-out
+class: flex items-center
+---
+
+<div class="w-full flex justify-center items-center gap-1">
+  <!-- Text Content -->
+  <div class="text-center">
+    <h1 class="gradient-text mb-2">What is Antimicrobial Stewardship (AMS)?</h1>
+  </div>
+  
+  <!-- Image Container -->
+  <div class="w-[25%]">
+    <img 
+      src="/images/question.png" 
+      class="w-full h-auto" 
+      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
+    >
+  </div>
+</div>
+
+
+<style>
+.gradient-text {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2.5em;
+  line-height:1.2;
+  font-weight: 900;
+}
+
+/* Remove white edges from transparent PNG */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+</style>
+
+---
+layout: center
+class: px-10 py-8
+background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
+text: white
+---
+
+
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<div class="space-y-8 text-lg">
+
+<v-clicks>
+
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship</h2>
+<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS)</h2>
 <p style="font-size: 1.5rem; line-height: 2;">Antimicrobial stewardship (AMS) is a coordinated program that seeks to promote appropriate use of all anti-microbials, including antibiotics, antivirals, and antifungals.</p>
 </div>
 
@@ -144,13 +589,11 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 
 <div class="col-left" style="width: 50%; padding-right: 2rem;">
 
-## [Why AMS Matters at FMC Keffi]{.gradient-heading}
-
-
+## [Why AMS Matters in the Hospitals]{.gradient-heading}
 
 <v-clicks>
 
-- **4.95 million deaths/year** globally linked to AMR (Lancet 2022)
+- **4.95 million deaths/year** globally linked to Antimicrobial Resistance (AMR) (Lancet 2022)
 - **50–70% of hospitalized patients** receive antimicrobials (WHO)
 - Increasing local AMR rates leading to **hard‑to‑treat infections**
 - **Resource constraints**: ICU beds, lab diagnostics
@@ -188,238 +631,11 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
   pointer-events: none;
 }
 ul {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   line-height: 1.6;
 }
 li {
-  margin-bottom: 0.8rem;
   padding-left: 0.5rem;
-}
-</style>
-
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
----
-layout: center
-class: px-10 py-8
-background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
-text: white
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<style>
-.gradient-heading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-}
-</style>
-
-<div class="w-full h-full flex flex-col justify-center">
-
-## Historical Evolution of Antimicrobial Stewardship Programs (ASPs){.gradient-heading}
-
-<div class="bg-white bg-opacity-10 p-8 rounded-xl">
-<v-clicks>
-
-<ul class="space-y-4 text-xl">
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">1940s:</span> Sir Alexander Fleming warned about emerging antibiotic resistance</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">1996-97:</span> Term "Antimicrobial Stewardship" was coined by McGowan & Gerding; Incorporated into IDSA guidelines.</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">2007:</span> IDSA/SHEA formally endorse Hospital ASPs as a core strategy.</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">2009-13:</span> CDC launches US national stewardship initiatives (Education -> Formal Strategy).</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">2016:</span> WHO & UN General Assembly endorse global ASP; WHO issues toolkits.</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">Mid-2010s Onwards:</span> Accreditation bodies & governments (e.g., EU 2017) mandate ASPs globally.</span>
-</li>
-</ul>
-
-</v-clicks>
-</div>
-
-</div>
-
-<style>
-.slidev-vclick-target {
-  transition: all 0.3s ease;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-</style>
-
----
-layout: center
-class: px-10 py-8
-background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
-text: white
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<style>
-.gradient-heading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  margin-top: 4rem;
-}
-</style>
-
-<div class="w-full h-full flex flex-col justify-center">
-
-## Nigeria's National AMR Response{.gradient-heading}
-
-<div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<v-clicks>
-
-<ul class="space-y-2 text-xl">
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">2017-22:</span> Launch of 1st National Action Plan (NAP-1.0) on AMR (One Health: Human, Animal, Env.).</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span>NAP-1.0 Mid-term Review: ~44% activities completed; Gaps identified (e.g., weak environmental/agricultural involvement).</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span><span class="font-bold">Oct 2024:</span> Launch of NAP-2.0 (2024-2028) - Aligns with UN/Global Health Security.</span>
-</li>
-<li class="flex items-start mt-6">
-  <span class="mr-3 text-blue-300">•</span>
-  <span class="font-bold">NAP-2.0 Priorities:</span>
-</li>
-<li class="flex items-start ml-8">
-  <span class="mr-3 text-blue-300">-</span>
-  <span>Strengthen ASPs</span>
-</li>
-<li class="flex items-start ml-8">
-  <span class="mr-3 text-blue-300">-</span>
-  <span>Enhance AMR Surveillance</span>
-</li>
-<li class="flex items-start ml-8">
-  <span class="mr-3 text-blue-300">-</span>
-  <span>Promote Research</span>
-</li>
-<li class="flex items-start ml-8">
-  <span class="mr-3 text-blue-300">-</span>
-  <span>Bolster Health Systems (One Health)</span>
-</li>
-</ul>
-
-</v-clicks>
-</div>
-
-</div>
-
-<style>
-.slidev-vclick-target {
-  transition: all 0.3s ease;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-</style>
-
----
-layout: center
-class: px-10 py-8
-background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
-text: white
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<style>
-.gradient-heading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-</style>
-
-<div class="w-full h-full flex flex-col justify-center">
-
-## ASP Implementation in Nigerian Hospitals so far{.gradient-heading}
-
-<div class="bg-white bg-opacity-10 p-8 rounded-xl">
-<v-clicks>
-
-<ul class="space-y-4 text-lg leading-relaxed">
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span>Only <span class="font-bold">13% to 35%</span> of Nigerian tertiary hospitals have formal ASP teams/committees (Ohaju-Obodo et al., 2020).</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span>Critical gaps exist: <span class="font-bold">~24%</span> have local treatment guidelines & only <span class="font-bold">~12%</span> enforce mandatory antibiotic review/approval.</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span>Pharmacists commonly perform <span class="italic">ad-hoc</span> stewardship (e.g., prescription review) despite lacking formal ASP programs (Ogunnigbo et al., 2021).</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span>Key barriers: Insufficient AMS/Prof. training, shortage of Prof-specialized pharmacists, & weak administrative support.</span>
-</li>
-<li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  <span class="font-bold">Nigerian hospitals show "significant inadequacies" in ASP implementation.</span>
-</li>
-</ul>
-
-</v-clicks>
-</div>
-
-</div>
-
-<style>
-.slidev-vclick-target {
-  transition: all 0.3s ease;
-}
-ul li{
-  list-style: none;
-  padding-left: 0;
-  font-weight: 600;
 }
 </style>
 

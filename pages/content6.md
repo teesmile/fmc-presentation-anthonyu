@@ -17,7 +17,17 @@ transition: fade-out
       font-weight: 900;
       text-align: center;
     }
-   
+   .gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
 </style>
 
 ---
@@ -28,7 +38,7 @@ class: px-12 py-10 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <br>
 
@@ -71,11 +81,10 @@ class: px-12 py-8 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
-<br>
-<div class="mt-2 text-xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-4xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Drug Audits (Prospective Audit & Feedback)</div>
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Drug Audits (Prospective Audit & Feedback)</div>
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
@@ -122,12 +131,12 @@ class: px-12 py-10 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent  .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent  .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <br>
 
 <div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-4xl font-bold mt-4 mb-6" style="color: rgb(9, 131, 172)">IV-to-Oral Switch</div>
+<div class="text-3xl font-bold mt-4 mb-6" style="color: rgb(9, 131, 172)">IV-to-Oral Switch</div>
 <ul class="space-y-3">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
@@ -165,7 +174,7 @@ class: px-12 py-10 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <br>
 
@@ -210,7 +219,7 @@ transition: fade-in
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <br>
 <div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white py-2 p-5 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
@@ -252,7 +261,7 @@ class: px-12 py-8 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <br>
 <div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
@@ -495,79 +504,3 @@ class: px-8 py-6 text-left
   .text-\[0\.6rem\] { font-size: 0.6rem; }
 </style>
 
----
-layout: center
-class: px-8 py-6 text-center
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-# [Team Members]{.gradient-heading}
-
-<div class="flex flex-col items-center space-y-4 mt-4">
-
-<!-- Row 1 (2 members) -->
-<div class="flex justify-center space-x-8">
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍⚕️</div>
-    <div class="font-bold">Pharm. Mrs.<br> Bara'atu</div>
-    <div class="text-sm text-gray-600">Supervisor</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
-    <div class="font-bold">Pharm. Anthony</div>
-    <div class="text-sm text-gray-600">Presenter</div>
-  </div>
-</div>
-
-<!-- Row 2 (3 members) -->
-<div class="flex justify-center space-x-8">
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🔬</div>
-    <div class="font-bold">Pharm Mrs.<br> Nenzarmwa</div>
-    <div class="text-sm text-gray-600">Microbiology</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
-    <div class="font-bold">Dr. F. Bello</div>
-    <div class="text-sm text-gray-600">Pharmacist</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🔬</div>
-    <div class="font-bold">Dr. I. Yusuf</div>
-    <div class="text-sm text-gray-600">Data Analyst</div>
-  </div>
-</div>
-
-<!-- Row 3 (4 members) -->
-<div class="flex justify-center space-x-6">
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍💻</div>
-    <div class="font-bold">Nurse G. Okafor</div>
-    <div class="text-sm text-gray-600">Infection Control</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
-    <div class="font-bold">Dr. E. Nwachukwu</div>
-    <div class="text-sm text-gray-600">Administrator</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
-    <div class="font-bold">Dr. Z. Abdul</div>
-    <div class="text-sm text-gray-600">Education</div>
-  </div>
-  
-  <div class="flex flex-col items-center">
-    <div class="w-20 h-20 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🏫</div>
-    <div class="font-bold">Dr. O. Adeleke</div>
-    <div class="text-sm text-gray-600">Quality Assurance</div>
-  </div>
-</div>
-
-</div>
