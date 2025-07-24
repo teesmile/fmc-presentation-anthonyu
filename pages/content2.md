@@ -34,7 +34,7 @@ layout: default
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -80,7 +80,7 @@ layout: default
 
 <div class="border-r border-gray-200 pr-4">
 
-## [Watch Group]{.gradient-heading}
+### [Watch Group]{.gradient-heading}
 
 **Higher resistance potential**  
 <div class="text-sm mt-2 pl-4">
@@ -104,7 +104,7 @@ layout: default
 
 <div>
 
-## [Reserve Group]{.gradient-heading}
+### [Reserve Group]{.gradient-heading}
 
 **Last-resort agents**  
 <div class="text-sm mt-2 pl-4">

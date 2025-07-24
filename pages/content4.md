@@ -12,7 +12,7 @@ class: px-12 py-10 text-center
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 3.5rem; 
+  font-size: 3rem; 
   line-height: 1.2;
   font-weight: 900;
   display: inline;

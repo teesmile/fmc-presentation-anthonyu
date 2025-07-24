@@ -1,0 +1,20 @@
+/* Fix for PDF exports - Add this once */
+:root {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+/* Fix gradient text */
+.gradient-heading, 
+.gradient-text,
+.gradient-subheading {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+}
+
+/* Fix images */
+img, svg {
+  visibility: visible !important;
+  opacity: 1 !important;
+}

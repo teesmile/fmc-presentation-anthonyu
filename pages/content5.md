@@ -14,7 +14,7 @@ class: text-center
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 4rem; 
+      font-size: 2.5rem; 
       line-height:1.2;
       font-weight: 900;
     }

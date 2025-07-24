@@ -33,7 +33,7 @@ class: px-8 py-4
   background-clip: text;
   color: transparent;
   font-weight: 800;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 0.2rem;
 }
 
@@ -166,7 +166,7 @@ class: px-8 py-4
   background-clip: text;
   color: transparent;
   font-weight: 800;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 0.2rem;
 }
 
@@ -286,6 +286,7 @@ class: px-8 py-4
     </div>
   </div>
 </div>
+
 ---
 layout: default
 class: px-10 py-8

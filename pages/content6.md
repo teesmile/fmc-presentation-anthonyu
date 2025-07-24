@@ -302,16 +302,8 @@ class: px-12 py-8
 
 <!-- Question 1 -->
 <div class="flex flex-col items-center h-full">
-  <div class="w-20 bg-gradient-to-b from-blue-500 to-blue-300 rounded-t-md relative" 
-       style="height: 0%"
-       v-motion:visible-once="{ 
-         enter: { 
-           height: '40%', 
-           transition: { 
-             duration: 800 
-           } 
-         } 
-       }">
+  <div class="w-20 rounded-t-md relative" 
+       style="height: 40%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
     <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q1</div>
     <div class="absolute -top-8 left-0 right-0 text-center">72%</div>
   </div>
@@ -319,17 +311,8 @@ class: px-12 py-8
 
 <!-- Question 2 -->
 <div class="flex flex-col items-center h-full">
-  <div class="w-20 bg-gradient-to-b from-green-500 to-green-300 rounded-t-md relative"
-       style="height: 0%"
-       v-motion:visible-once="{ 
-         enter: { 
-           height: '65%', 
-           transition: { 
-             duration: 800,
-             delay: 200
-           } 
-         } 
-       }">
+  <div class="w-20 rounded-t-md relative"
+       style="height: 65%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
     <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q2</div>
     <div class="absolute -top-8 left-0 right-0 text-center">58%</div>
   </div>
@@ -337,17 +320,8 @@ class: px-12 py-8
 
 <!-- Question 3 -->
 <div class="flex flex-col items-center h-full">
-  <div class="w-20 bg-gradient-to-b from-purple-500 to-purple-300 rounded-t-md relative"
-       style="height: 0%"
-       v-motion:visible-once="{ 
-         enter: { 
-           height: '30%', 
-           transition: { 
-             duration: 800,
-             delay: 400
-           } 
-         } 
-       }">
+  <div class="w-20 rounded-t-md relative"
+       style="height: 30%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
     <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q3</div>
     <div class="absolute -top-8 left-0 right-0 text-center">85%</div>
   </div>
@@ -355,17 +329,8 @@ class: px-12 py-8
 
 <!-- Question 4 -->
 <div class="flex flex-col items-center h-full">
-  <div class="w-20 bg-gradient-to-b from-yellow-500 to-yellow-300 rounded-t-md relative"
-       style="height: 0%"
-       v-motion:visible-once="{ 
-         enter: { 
-           height: '55%', 
-           transition: { 
-             duration: 800,
-             delay: 600
-           } 
-         } 
-       }">
+  <div class="w-20 rounded-t-md relative"
+       style="height: 55%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
     <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q4</div>
     <div class="absolute -top-8 left-0 right-0 text-center">63%</div>
   </div>
@@ -373,17 +338,8 @@ class: px-12 py-8
 
 <!-- Question 5 -->
 <div class="flex flex-col items-center h-full">
-  <div class="w-20 bg-gradient-to-b from-red-500 to-red-300 rounded-t-md relative"
-       style="height: 0%"
-       v-motion:visible-once="{ 
-         enter: { 
-           height: '75%', 
-           transition: { 
-             duration: 800,
-             delay: 800
-           } 
-         } 
-       }">
+  <div class="w-20 rounded-t-md relative"
+       style="height: 75%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
     <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q5</div>
     <div class="absolute -top-8 left-0 right-0 text-center">47%</div>
   </div>

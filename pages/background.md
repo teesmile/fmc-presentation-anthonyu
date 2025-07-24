@@ -90,7 +90,7 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   font-weight: 800;
   font-size: 2rem;
   margin-bottom: 0.3rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .toc-container {
@@ -289,8 +289,8 @@ class: px-8 py-6
 .organism-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  font-size: 1.2rem;
+  gap: 1rem;
+  font-size: 1rem;
 }
 
 .organism-column {
@@ -303,17 +303,17 @@ class: px-8 py-6
   font-weight: 700;
   color: rgb(9, 131, 172);
   border-bottom: 2px solid rgba(9, 131, 172, 0.3);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .organism-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .organism-name {
   font-weight: 600;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
 }
 
 .organism-resistance {
@@ -634,11 +634,11 @@ layout: default
 <CircleShape position="top:20%; left:-6%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Antimicrobial Resistance (AMR) cont'd..]{.gradient-heading}
+### [Antimicrobial Resistance (AMR) cont'd..]{.gradient-heading}
 
 <v-clicks>
 
-<div class="w-[84%] ml-[6%]">
+<div class="w-[75%] ml-[10%]">
     <img 
       src="/images/AMRmech.png" 
       class="w-full h-auto" 
@@ -657,7 +657,7 @@ layout: default
 
 ---
 layout: default
-class: px-6 py-8
+class: px-8 py-10
 ---
 
 ## [Leading Causes of AMR]{.gradient-heading}
@@ -672,92 +672,85 @@ class: px-6 py-8
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.driver-container {
-  display: flex;
-  flex-direction: column;
-  height: 50vh;
-}
-
-.driver-row {
-  display: flex;
-  flex: 1;
-  gap: 0.1rem;
-}
-
-.driver-card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
-.driver-card h2 {
-  color: rgb(9, 131, 172);
-  font-weight: 600;
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 0.5rem 0;
-}
-
-.emoji-icon {
   font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bullet-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 3rem;
+  height: 65vh;
+}
+
+.bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.bullet-icon {
+  font-size: 1.8rem;
+  color: rgb(9, 131, 172);
+  margin-top: 0rem;
+}
+
+.bullet-content h3 {
+  color: rgb(24, 24, 24);
+  font-weight: 600;
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
+}
+
+.bullet-content p {
+  color:rgb(24, 24, 24);
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 </style>
 
-<div class="driver-container">
-  <!-- Top Row -->
-  <div class="driver-row">
-    <!-- Upper Left -->
-    <div class="driver-card">
-      <v-click>
-        <div class="emoji-icon">⚖️</div>
-        <h2>Overuse & Misuse</h2>
-        <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
-      </v-click>
-    </div>
-
-    
-   <div class="driver-card">
-      <v-click at="2">
-        <div class="emoji-icon">🐄</div>
-        <h2>Agricultural Use</h2>
-        <!-- <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O'Neill Review, 2016).</p> -->
-      </v-click>
+<div class="bullet-container">
+  <!-- Item 1 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Overuse & Misuse</h3>
+      <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
     </div>
   </div>
 
-
-  <div class="driver-row">
- 
-  <div class="driver-card">
-      <v-click at="3">
-        <div class="emoji-icon">🏥</div>
-        <h2>Infection Control</h2>
-        <!-- <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p> -->
-      </v-click>
+  <!-- Item 2 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Agricultural Use</h3>
+      <!-- <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O'Neill Review, 2016).</p> -->
     </div>
+  </div>
 
-    
-  <div class="driver-card">
-      <v-click at="4">
-        <div class="emoji-icon">💊</div>
-        <h2>Innovation Gap</h2>
-        <!-- <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021)</p> -->
-      </v-click>
+  <!-- Item 3 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Infection Control</h3>
+      <!-- <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p> -->
+    </div>
+  </div>
+
+  <!-- Item 4 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Innovation Gap</h3>
+      <!-- <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021).</p> -->
     </div>
   </div>
 </div>
 
 
 ---
-layout: center
+layout: default
 class: px-10 py-2
 background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 text: white
@@ -767,11 +760,9 @@ text: white
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# [Principles of Antimicrobial Stewardship]{.gradient-heading}
+# [Principles of Antimicrobial Stewardship]{.gradient-headinga}
 
-<br>
-
-<div class="grid grid-cols-2 gap-6 mt-4" style="font-size: 1.2rem;">
+<div class="grid grid-cols-2 p-2 gap-6 mt-1" style="font-size: 1.2rem;">
 
 <!-- Column 1 -->
 <div class="space-y-6">
@@ -825,6 +816,16 @@ text: white
   opacity: 0;
   pointer-events: none;
 }
+.gradient-headinga {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
 </style>
 
 ---
@@ -873,7 +874,7 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 }
 .two-columns {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .slidev-vclick-target {
   transition: opacity 400ms ease;
@@ -883,7 +884,7 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
   pointer-events: none;
 }
 ul {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   line-height: 1.6;
 }
 li {
