@@ -20,7 +20,7 @@ class: px-8 py-6 text-center
   
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
-    <div class="font-bold">Pharm. Anthony</div>
+    <div class="font-bold">Pharm. Ugwuja Anthony</div>
     <div class="text-sm text-gray-600">Presenter</div>
   </div>
 </div>
