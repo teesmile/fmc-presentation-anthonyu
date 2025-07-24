@@ -28,130 +28,138 @@ transition: fade-out
 }
 </style>
 
+
 ---
 layout: default
+class: px-8 py-6
 ---
+
 <style>
 .gradient-heading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-weight: 800;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
 }
 
-.gradient-subheading, span  {
+.gradient-subheading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.8rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.risk-table {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.risk-header {
+  font-weight: 700;
+  border-bottom: 3px solid rgb(9, 131, 172);
+  padding-bottom: 0.1rem;
+}
+
+.risk-row {
+  border-bottom: 1px solid rgba(9, 131, 172, 0.3);
+  padding: 1rem 0;
+}
+
+.high-risk {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.cdi-definition {
+  background: rgba(9, 131, 172, 0.1);
+  border-left: 4px solid rgb(9, 131, 172);
+  padding: 1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.2rem 0;
+}
+
+.compact-table {
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+}
+
+.compact-table .risk-header {
+  padding-bottom: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.compact-table .risk-row {
+  padding: 0.4rem 0;
+}
+
+.compact-table .high-risk {
+  font-size: 0.8rem;
 }
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-
-## [What is] <span class="italic">C. difficile</span>{.gradient-heading}
-<v-click>
-
-- 🦠 *Clostridioides difficile* Infection (CDI) are:
-
-  - Gram-positive, spore-forming anaerobic bacterium
-  - Causes antibiotic-associated diarrhea and colitis
-  - Spores survive in the environment for months
-
-</v-click>
-
-
----
-layout: default
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-8%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<CircleShape position="top:20%; left:95%; size:80px; color:rgba(168, 87, 11, 0.16)" />
-<PillShape position="bottom:-8%; left:1%; width:10px; height:2px; color:rgba(79, 252, 87, 0.08)" />
-
-## [THE 4C (Antibiotics) associated with CDI RISKS]{.gradient-heading}
-
-<br>
-
-
-<div class="space-y-6 text-2xl">
-
-<!-- Header -->
-<div class="grid grid-cols-12 font-bold border-b-2 pb-4 text-3xl">
-  <div class="col-span-8">ANTIBIOTIC</div>
-  <div class="col-span-4">RISK LEVEL</div>
-</div>
-
-<!-- Rows -->
-<v-click>
-<div class="grid grid-cols-12 py-4 border-b-2 items-center">
-  <div class="col-span-8 font-bold">1. CLINDAMYCIN</div>
-  <div class="col-span-4 text-red-600 font-bold text-3xl">HIGH</div>
-</div>
-</v-click>
-
-<v-click at="2">
-<div class="grid grid-cols-12 py-4 border-b-2 items-center">
-  <div class="col-span-8 font-bold">2. CEPHALOSPORINS</div>
-  <div class="col-span-4 text-red-600 font-bold text-3xl">HIGH</div>
-</div>
-</v-click>
-
-<v-click at="3">
-<div class="grid grid-cols-12 py-4 border-b-2 items-center">
-  <div class="col-span-8 font-bold">3. CO-AMOXICLAV</div>
-  <div class="col-span-4 text-red-600 font-bold text-3xl">HIGH</div>
-</div>
-</v-click>
-
-<v-click at="4">
-<div class="grid grid-cols-12 py-4 items-center">
-  <div class="col-span-8 font-bold">4. CIPROFLOXACIN</div>
-  <div class="col-span-4 text-red-600 font-bold text-3xl">HIGH</div>
-</div>
-</v-click>
-
-</div>
-
----
-layout: default
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-8%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## [THE 4C (Antibiotics) associated with CDI RISKS cont'd..]{.gradient-heading}
-
-<br>
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 <v-click>
-<div class=" p-8 mx-6 mb-8 rounded-lg text-2xl leading-normal">
-💥 These antibiotics disrupt gut flora most
+
+### [What is]{.gradient-subheading} <i class="gradient-subheading">C. difficile?</i>
+
+
+<div class="cdi-definition">
+  <div class="text-xl mb-1">🦠 <i>Clostridioides difficile</i> Infection (CDI):</div>
+  <p class="pl-1 mb-2">
+    A nosocomial infection caused by <i>C. difficile</i>, mostly following some antibiotic exposure, resulting in disruption of normal gut flora and colonic inflammation.
+  </p>
+  <ul class="list-disc pl-5 space-y-2">
+    <li>Gram-positive, spore-forming, obligate anaerobe</li>
+    <li>Transmitted via fecal-oral route; spores persist on surfaces for prolonged periods</li>
+    <li>Risk factors: broad-spectrum antibiotics, hospitalization, advanced age, immunosuppression</li>
+  </ul>
 </div>
+
 </v-click>
 
-<v-click at="2">
-<div class="p-8 mx-6 mb-8 rounded-lg text-2xl leading-normal">
-🦠 Increase susceptibility to <i>C. difficile</i> colonization
-</div>
-</v-click>
+ <v-click>
 
-<v-click at="3">
-<div class=" p-8 mx-6 rounded-lg text-2xl leading-normal">
-🛡️ Stewardship aims to avoid them when safer alternatives exist
+### [THE 4C Antibiotics Associated with CDI Risk]{.gradient-subheading}
+<div class="risk-table compact-table">
+  <!-- Header -->
+  <div class="grid grid-cols-12 risk-header">
+    <div class="col-span-9">ANTIBIOTIC</div>
+    <div class="col-span-3">RISK LEVEL</div>
+  </div>
+
+  <!-- Rows -->
+ 
+  <div class="grid grid-cols-12 risk-row items-center">
+    <div class="col-span-9 font-bold">1. Clindamycin</div>
+    <div class="col-span-3 high-risk">HIGH</div>
+  </div>
+
+  <div class="grid grid-cols-12 risk-row items-center">
+    <div class="col-span-9 font-bold">2. Cephalosporins</div>
+    <div class="col-span-3 high-risk">HIGH</div>
+  </div>
+
+  <div class="grid grid-cols-12 risk-row items-center">
+    <div class="col-span-9 font-bold">3. Co-amoxiclav</div>
+    <div class="col-span-3 high-risk">HIGH</div>
+  </div>
+
+  <div class="grid grid-cols-12 risk-row items-center">
+    <div class="col-span-9 font-bold">4. Ciprofloxacin</div>
+    <div class="col-span-3 high-risk">HIGH</div>
+  </div>
 </div>
-</v-click>
+
+ </v-click>
+
 
 ---
 layout: default

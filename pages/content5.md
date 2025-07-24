@@ -50,12 +50,12 @@ class: px-12 py-10
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 ## [PHARMACEUTICAL IMPORTANCE OF ANTIMICROBIAL STEWARDSHIP]{.gradient-heading}
 
 <br>
-<div class="space-y-6 text-2xl font-semibold">
+<div class="space-y-3 text-2xl font-semibold">
 <v-click>
 <div class="p-6 bg-blue-50 rounded-xl border-l-8 border-blue-500">
 💊 Ensures <span class="text-blue-600">rational drug use</span> and prescribing accuracy

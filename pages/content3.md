@@ -115,7 +115,7 @@ class: px-8 py-4
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Front-End Interventions]{.gradient-heading}
 ## [Pre-Authorization Strategy]{.gradient-subheading}
@@ -248,7 +248,7 @@ class: px-8 py-4
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Back-End Interventions]{.gradient-heading}
 ## [Audit & Feedback Strategy]{.gradient-subheading}
@@ -288,25 +288,67 @@ class: px-8 py-4
 </div>
 ---
 layout: default
+class: px-10 py-8
 ---
 
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.bullet-list {
+  list-style: none;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.bullet-list li {
+  position: relative;
+}
+
+.bullet-list li::before {
+  content: "•";
+  color: rgb(9, 131, 172);
+  font-size: 2rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.1rem;
+}
+
+.highlight {
+  font-weight: 700;
+  color: rgb(9, 131, 172);
+}
+
+.slidev-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+</style>
+
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 ## [Evidence & Outcomes]{.gradient-heading}
 
 <v-clicks>
-
-- Both strategies are core components of ASPs
-
-- ***Hybrid models are common:***
-
-- Pre-auth works well for Reserve drugs
-
-- Audit/feedback is usuallypracticed on broad-spectrum use
-
-- Studies show reduced resistance and improved prescribing behaviour
-
+<ul class="bullet-list">
+  <li>Both strategies are core components of ASPs</li>
+  <li><span class="highlight">Hybrid models are common:</span></li>
+  <li>Pre-auth works well for Reserve drugs</li>
+  <li>Audit/feedback is usually practiced on broad-spectrum use</li>
+  <li>Studies show reduced resistance and improved prescribing behavior</li>
+</ul>
 </v-clicks>
 
 ---
@@ -315,7 +357,7 @@ layout: default
 
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 
 ## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
@@ -333,6 +375,7 @@ layout: default
 
 - Avoid broad-spectrum agents unless absolutely necessary.
 - Consider local resistance patterns and patient allergies.
+- *Example: Use nitrofurantoin for uncomplicated urinary tract infections instead of a fluoroquinolone like ciprofloxacin.*
 </div>
 </v-click>
 
@@ -348,24 +391,20 @@ layout: default
 - Renal and hepatic function
 - Severity of infection
 - Underdosing risks treatment failure; overdosing risks toxicity.
+- *Vancomycin dose reduced to once daily in a patient with kidney impairment to prevent toxicity.*
 </div>
 </v-click>
 
 </div>
-<v-click>
-
-- *Example: Use nitrofurantoin for uncomplicated urinary tract infections instead of a fluoroquinolone like ciprofloxacin.*
-
-</v-click>
 ---
 layout: default
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 
-## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
+## [The “4 Ds” of Antimicrobial Prescribing cont'd..]{.gradient-heading}
 
 <div class="mt-12 grid grid-cols-2 gap-8">
 
@@ -390,7 +429,7 @@ layout: default
 <v-click>
 <div class="pl-4">
 
-### 🔄 4. [De-escalation ]{.gradient-subheading}
+### 🔄 4. [De-escalation/Diagnosis ]{.gradient-subheading}
 
 - Once culture and susceptibility results are available:
 

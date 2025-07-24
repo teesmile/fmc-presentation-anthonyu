@@ -12,7 +12,7 @@ transition: fade-out
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 2.2em; 
+      font-size: 1.5em; 
       line-height:1.2;
       font-weight: 900;
       text-align: center;
@@ -24,9 +24,9 @@ transition: fade-out
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 </style>
 
@@ -36,9 +36,9 @@ class: px-12 py-10 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
 <br>
 
@@ -47,17 +47,17 @@ class: px-12 py-10 text-center
 <ul class="space-y-4">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Leverage <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">AWaRe categories</span> to decide which antibiotics to stock and restrict</span>
+  Leverage AWaRe categories to decide which antibiotics to stock and restrict
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Use <span class="font-bold" style="color: rgb(11, 104, 134)">local antibiogram data</span> to guide first-line agents</span>
+  Use local antibiogram data to guide first-line agents
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span><span class="font-bold" style="color: rgb(9, 131, 172)">Example:</span> Nigerian teaching hospitals built an <span class="font-bold" style="color: rgb(11, 104, 134)">AWaRe-based formulary</span> in partnership with health authorities</span>
+ Example: Nigerian teaching hospitals built an AWaRe-based formulary in partnership with health authorities
 </li>
 </ul>
 
@@ -79,31 +79,31 @@ class: px-12 py-8 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
 <div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
 <div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Drug Audits (Prospective Audit & Feedback)</div>
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Review each prescription's <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">indication, choice, dose, and duration</span></span>
+  Review each prescription's indication, choice, dose, and duration.
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Provide <span class="font-bold" style="color: rgb(11, 104, 134)">real-time feedback</span> to prescribers</span>
-</li>
+  Provide real-time feedback to prescribers
+  </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Track <span class="font-bold text-xl tracking-tight" style="color: rgb(9, 131, 172)">Days of Therapy (DOT), Defined Daily Doses (DDD), and C. difficile rates</span></span>
+ Track Days of Therapy (DOT), Defined Daily Doses (DDD), and C. difficile rates
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Conduct routine <span class="font-bold" style="color: rgb(11, 104, 134)">medication chart reviews</span> or AMS rounds to educate clinicians</span>
+  Conduct routine medication chart reviews or AMS rounds to educate clinicians
 </li>
 </ul>
 
@@ -129,9 +129,9 @@ class: px-12 py-10 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent  .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+## *Pharmacist-Led Stewardship Activities cont'd..*{ .gradient-heading}
 
 <br>
 
@@ -140,17 +140,17 @@ class: px-12 py-10 text-center
 <ul class="space-y-3">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Identify patients eligible for transition from <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">IV to oral antimicrobial</span></span>
+ Identify patients eligible for transition from IV to oral antimicrobial.
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Studies show pharmacy-led protocols can <span class="font-bold" style="color: rgb(11, 104, 134)">shorten median IV courses</span> (e.g., from 3 to 2 days), <span class="font-bold" style="color: rgb(11, 104, 134)">reduce costs</span>, and <span class="font-bold" style="color: rgb(11, 104, 134)">decrease length of stay</span></span>
+ Studies show pharmacy-led protocols can shorten median IV courses(e.g., from 3 to 2 days), reduce costs, and decrease length of stay
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span><span class="font-bold" style="color: rgb(9, 131, 172)">Frees IV lines and beds</span> while maintaining clinical efficacy</span>
+  Frees IV lines and beds while maintaining clinical efficacy
 </li>
 </ul>
 
@@ -172,9 +172,9 @@ class: px-12 py-10 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading.bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
 <br>
 
@@ -183,17 +183,17 @@ class: px-12 py-10 text-center
 <ul class="space-y-3">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Teach medical and nursing staff <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">AMS principles</span>, AWaRe categories, dosing/duration norms, and infection control</span>
+  Teach medical and nursing staff AMS principles, AWaRe categories, dosing/duration norms, and infection control
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Utilize <span class="font-bold" style="color: rgb(11, 104, 134)">in-service trainings</span>, <span class="font-bold" style="color: rgb(11, 104, 134)">case reviews</span>, and <span class="font-bold" style="color: rgb(11, 104, 134)">ward-round presentations</span></span>
+  Utilize in-service trainings, case reviews and ward-round presentations
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span><span class="font-bold" style="color: rgb(9, 131, 172)">CDC core elements</span> emphasize pharmacist-led teaching as a stewardship cornerstone</span>
+  CDC core elements emphasize pharmacist-led teaching as a stewardship cornerstone
 </li>
 </ul>
 
@@ -207,6 +207,7 @@ class: px-12 py-10 text-center
   .max-w-4xl {
     max-width: 56rem;
   }
+
 </style>
 
 ---
@@ -217,9 +218,9 @@ transition: fade-in
 
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
 <br>
 <div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white py-2 p-5 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
@@ -227,17 +228,17 @@ transition: fade-in
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Lead development and rollout of <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">facility-specific antibiotic guidelines</span> and order sets (e.g., pneumonia, sepsis, UTI)</span>
+  Lead development and rollout of facility-specific antibiotic guidelines and order sets (e.g., pneumonia, sepsis, UTI)
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Embed protocols into <span class="font-bold" style="color: rgb(11, 104, 134)">electronic order systems</span> and standard treatment guidelines (STGs)</span>
+  Embed protocols into electronic order systems and standard treatment guidelines (STGs)
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Ensure guidelines reflect <span class="font-bold" style="color: rgb(9, 131, 172)">local antibiogram data</span> and <span class="font-bold" style="color: rgb(9, 131, 172)">national STGs</span></span>
+  Ensure guidelines reflect local antibiogram data and national STGs
 </li>
 </ul>
 
@@ -259,9 +260,9 @@ class: px-12 py-8 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
+# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
 <br>
 <div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
@@ -269,17 +270,17 @@ class: px-12 py-8 text-center
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Serve as <span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">AMS champions</span> or co-leads of the stewardship program</span>
+  Serve as AMS champions or co-leads of the stewardship program
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span>Liaise with <span class="font-bold" style="color: rgb(11, 104, 134)">Pharmacy & Therapeutics committees</span> to drive policy and formulary changes</span>
+  Liaise with Pharmacy & Therapeutics committees to drive policy and formulary changes
 </li>
 
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>Advocate for <span class="font-bold" style="color: rgb(9, 131, 172)">stewardship culture</span> and <span class="font-bold" style="color: rgb(9, 131, 172)">interprofessional collaboration</span></span>
+  Advocate for stewardship culture and interprofessional collaboration
 </li>
 </ul>
 
@@ -301,7 +302,7 @@ class: px-12 py-8
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Result from my survey (questionnaire)]{.gradient-heading}
 
@@ -410,39 +411,12 @@ class: px-12 py-10 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Conclusion ]{.text-transparent .bg-clip-text .gradient-heading .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
-<br>
-
 <div class="mt-4 text-xl text-left mx-auto max-w-4xl bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<ul class="space-y-4">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span><span class="font-bold" style="background: linear-gradient(to right, rgb(11, 104, 134), rgb(9, 131, 172)); -webkit-background-clip: text; background-clip: text; color: transparent;">AMS is essential</span> for delivering safe, effective, and sustainable care in <span class="font-bold" style="color: rgb(9, 131, 172)">hospitals</span></span>
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span> <span class="font-bold" style="color: rgb(11, 104, 134)">Pharmacists</span> are central to driving stewardship success.</span>
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>AMS improves <span class="font-bold" style="color: rgb(9, 131, 172)">patient outcomes</span> and curbs <span class="font-bold" style="color: rgb(9, 131, 172)">antimicrobial resistance</span></span>
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  <span><span class="font-bold" style="color: rgb(11, 104, 134)">FMC Keffi</span> stands to benefit greatly from AMS implementation</span>
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  <span>With strong leadership, FMC Keffi can become a <span class="font-bold" style="color: rgb(9, 131, 172)">model center for stewardship excellence</span></span>
-</li>
-</ul>
+Antimicrobial Stewardship (AMS) is vital for <span>safe and effective hospital care.</span> <span>Pharmacists</span> are central to its success, helping improve patient outcomes and combat <span>resistance.</span> FMC Keffi has much to gain from AMS, and with strong leadership can become a model for stewardship excellence and example to other hospitals in Nigeria.
 
 </div>
 
@@ -462,7 +436,7 @@ class: px-8 py-6 text-left
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [References ]{.text-transparent .gradient-heading .bg-clip-text .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
@@ -504,3 +478,25 @@ class: px-8 py-6 text-left
   .text-\[0\.6rem\] { font-size: 0.6rem; }
 </style>
 
+---
+layout: center
+class: px-12 py-10 text-center
+---
+
+<style>
+    .gradient-text {
+      background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      font-size: 2em; 
+      line-height:1.2;
+      font-weight: 900;
+      
+    }
+</style>
+
+# [Thanks For Listening!]{.gradient-text}
+
+Questions and Discussions

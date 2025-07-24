@@ -4,7 +4,7 @@ class: px-8 py-6 text-center
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Team Members]{.gradient-heading}
 
@@ -14,8 +14,8 @@ class: px-8 py-6 text-center
 <div class="flex justify-center space-x-8">
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍⚕️</div>
-    <div class="font-bold">Pharm. Mrs.<br> Bara'atu</div>
-    <div class="text-sm text-gray-600">Supervisor</div>
+    <div class="font-bold">Pharm. Nenzarmwa Makan</div>
+    <div class="text-sm text-gray-600">Preceptor</div>
   </div>
   
   <div class="flex flex-col items-center">
@@ -29,20 +29,20 @@ class: px-8 py-6 text-center
 <div class="flex justify-center space-x-8">
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🔬</div>
-    <div class="font-bold">Pharm Mrs.<br> Nenzarmwa</div>
-    <div class="text-sm text-gray-600">Microbiology</div>
+    <div class="font-bold">Pharm. Bara'atu Junaidu</div>
+    <div class="text-sm text-gray-600">Supervisor</div>
   </div>
   
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
-    <div class="font-bold">Dr. F. Bello</div>
-    <div class="text-sm text-gray-600">Pharmacist</div>
+    <div class="font-bold">Pharm. Abubakar Hussaini</div>
+    <div class="text-sm text-gray-600">Supervisor</div>
   </div>
   
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🔬</div>
-    <div class="font-bold">Dr. I. Yusuf</div>
-    <div class="text-sm text-gray-600">Data Analyst</div>
+    <div class="font-bold">Pharm. Rita Ohyoma</div>
+    <div class="text-sm text-gray-600">Supervisor</div>
   </div>
 </div>
 
@@ -50,26 +50,26 @@ class: px-8 py-6 text-center
 <div class="flex justify-center space-x-6">
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍💻</div>
-    <div class="font-bold">Nurse G. Okafor</div>
-    <div class="text-sm text-gray-600">Infection Control</div>
+    <div class="font-bold"> Pharm. Dapan Pankwat Livinus</div>
+    <div class="text-sm text-gray-600">Member</div>
   </div>
   
   <div class="flex flex-col items-center">
     <div class="w15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍💻</div>
-    <div class="font-bold">Dr. E. Nwachukwu</div>
-    <div class="text-sm text-gray-600">Administrator</div>
+    <div class="font-bold">Pharm. Ugwu Blessing</div>
+    <div class="text-sm text-gray-600">Member</div>
   </div>
   
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👩‍🏫</div>
-    <div class="font-bold">Dr. Z. Abdul</div>
-    <div class="text-sm text-gray-600">Education</div>
+    <div class="font-bold">Pharm. Rabiat Abdulrazzaq</div>
+    <div class="text-sm text-gray-600">Member</div>
   </div>
   
   <div class="flex flex-col items-center">
     <div class="w-15 h-15 rounded-lg bg-gray-200 mb-2 flex items-center justify-center text-3xl">👨‍🏫</div>
-    <div class="font-bold">Dr. O. Adeleke</div>
-    <div class="text-sm text-gray-600">Quality Assurance</div>
+    <div class="font-bold">Pharm. Ugwu Stanley</div>
+    <div class="text-sm text-gray-600">Member</div>
   </div>
 </div>
 
@@ -201,15 +201,33 @@ text: white
 
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-<div class="space-y-8 text-lg">
+<div class="space-y-4 text-lg">
 
 <v-clicks>
 
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">What is Antimicrobial?</h2>
-<p style="font-size: 1.5rem; line-height: 2;">Antimicrobials are agents that either kill microorganisms (biocidal effect) or inhibit their growth (biostatic effect).</p>
+<h2 class="text-xl font-bold mb-4" style="color: rgb(11, 104, 134);">What is Antimicrobial?</h2>
+<p style="font-size: 1.2rem; line-height: 2;">Antimicrobials are agents that either kill microorganisms (biocidal effect) or inhibit their growth (biostatic effect).</p>
+
+<p style="font-size: 1.2rem; line-height: 2; margin-top: 1rem;">
+While antimicrobials include agents that act against viruses, fungi, and parasites, this presentation focuses on <strong>bacterial infections</strong> and the use of <strong>antibiotics</strong>, which are the most commonly misused and most affected by resistance.
+</p>
+</div>
+<div class="bg-white bg-opacity-10 p-3 rounded-xl">
+  <h2 class="text-xl font-bold mb-4" style="color: rgb(11, 104, 134);">
+    Gram-Positive vs Gram-Negative Bacteria
+  </h2>
+  <p class="text-lg leading-7">
+    Bacteria are broadly classified into:
+    <strong>Gram-positive</strong> (e.g. <em>Staphylococcus aureus</em>) and 
+    <strong>Gram-negative</strong> (e.g. <em>E. coli, Klebsiella</em>) based on their cell wall structure.
+  </p>
+  <ul class="mt-4 list-disc pl-6 text-lg leading-7">
+    <li><strong>Gram-Positive:</strong> Thick peptidoglycan wall, no outer membrane.</li>
+    <li><strong>Gram-Negative:</strong> Thin wall + outer membrane; often more resistant due to efflux pumps & enzymes.</li>
+  </ul>
 </div>
 
 
@@ -231,8 +249,281 @@ layout: default
 class: px-8 py-6
 ---
 
+<style>
+.gradient-heading2 {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.organism-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.organism-column {
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  padding: 1.2rem;
+}
+
+.column-title {
+  font-weight: 700;
+  color: rgb(9, 131, 172);
+  border-bottom: 2px solid rgba(9, 131, 172, 0.3);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.organism-item {
+  margin-bottom: 1.5rem;
+}
+
+.organism-name {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.organism-resistance {
+  font-size: 1rem;
+}
+.criticality {
+  font-size: 0.75rem;
+  color:rgb(51, 51, 51);
+  margin-top: -0.5rem;
+  text-align: center;
+  margin-top: 0.2rem
+}
+</style>
+
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+## [Major Organisms that Pose a Serious Threat to Current Antimicrobial Therapies]{.gradient-heading2}
+
+<div class="organism-grid">
+  <!-- Column 1 -->
+  <v-click>
+  <div class="organism-column">
+    <div class="column-title">Gram-Negative Bacteria
+    <div class="criticality">Critical urgent threats</div>
+    </div>
+    
+   <div class="organism-item">
+      <div class="organism-name">Carbapenem-resistant Enterobacteriaceae (CRE)<br>(e.g. <i class="italic tetx-sm">K. pneumoniae, E. coli</i>)</div>
+      <div class="organism-resistance">Resistant to nearly all beta-lactams, including carbapenems</div>
+   </div>
+    
+  <div class="organism-item">
+      <div class="organism-name"><i class="italic"> Pseudomonas aeruginosa</i> </div>
+      <div class="organism-resistance">Often resistant to multiple drug classes</div>
+    </div>
+    
+    
+  <div class="organism-item">
+      <div class="organism-name">ESBL-producing Enterobacteriaceae</div>
+      <div class="organism-resistance">Inactivate 3rd-gen cephalosporins</div>
+    </div>
+  </div>
+  </v-click>
+
+  <!-- Column 2 -->
+  <v-click at="2">
+  <div class="organism-column">
+    <div class="column-title">Gram-Positive Bacteria
+    <div class="criticality">High Priority</div>
+    </div>
+    
+   <div class="organism-item">
+      <div class="organism-name">MRSA (Methicillin-resistant <i class="italic"> Staphylococcus aureus)</i> </div>
+      <div class="organism-resistance">Resistant to most beta-lactams</div>
+   </div>
+    
+   <div class="organism-item">
+      <div class="organism-name">VRE (Vancomycin-resistant Enterococci)</div>
+      <div class="organism-resistance">Resistant to vancomycin, often multidrug-resistant</div>
+   </div>
+    
+   <div class="organism-item">
+      <div class="organism-name">Drug-resistant <i class="italic">Streptococcus pneumoniae</i>  </div>
+      <div class="organism-resistance">Resistance to penicillin, macrolides</div>
+   </div>
+  </div>
+  </v-click>
+
+  <!-- Column 3 -->
+  <v-click at="3">
+  <div class="organism-column">
+    <div class="column-title">Other Emerging Threats</div>
+    
+  <div class="organism-item">
+      <div class="organism-name"><i class="italic"> Neisseria gonorrhoeae</i>  </div>
+      <div class="organism-resistance">Resistance to fluoroquinolones, cephalosporins, azithromycin</div>
+  </div>
+    
+  <div class="organism-item">
+      <div class="organism-name">Salmonella (including Typhi)</div>
+      <div class="organism-resistance">MDR and extensively drug-resistant (XDR) strains</div>
+    </div>
+    
+   <div class="organism-item">
+      <div class="organism-name"> <i class="italic"> Mycobacterium tuberculosis (MDR-TB, XDR-TB)</i> </div>
+    <div class="organism-resistance">Resistance to rifampicin and isoniazid (MDR); fluoroquinolones and injectable drugs (XDR)</div>
+    </div>
+  </div>
+  </v-click>
+</div>
+
+---
+layout: center
+class: text-center
+background: linear-gradient(-45deg, rgba(11, 104, 134, 0.9), rgba(9, 131, 172, 0.9))
+text: white
+---
+
+<style>
+.callout-box {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.callout-message {
+  font-size: 2rem;
+  line-height: 1.9;
+  font-weight: 500;
+  margin: 0.8;
+  padding: 0;
+}
+
+.callout-message span {
+  display: inline-block;
+  margin: 0.8rem 0;
+}
+
+.strong-emphasis {
+  font-weight: 800;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: rgba(255,255,255,0.1);
+  padding: 0 0.2rem;
+  font-size: 1.8rem;
+}
+
+.stewardship-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+</style>
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(255,255,255,0.15)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(255,255,255,0.1)" />
+
+<div class="callout-box">
+  <div class="stewardship-icon">🛡️</div>
+  <p class="callout-message">
+    These resistant organisms challenge treatment <br>
+  </p>
+  <p class="callout-message"> and highlight the urgent need for <br>
+    <span class="strong-emphasis">Antimicrobial Stewardship</span><br>
+    to preserve antibiotic effectiveness.</p>
+</div>
+
+---
+layout: center
+transition: fade-out
+class: flex items-center
+---
+
+<div class="w-full flex justify-center items-center gap-1">
+  <!-- Text Content -->
+  <div class="text-center">
+    <h1 class="gradient-text mb-2">What is Antimicrobial Stewardship (AMS)?</h1>
+  </div>
+  
+  <!-- Image Container -->
+  <div class="w-[25%]">
+    <img 
+      src="/images/question.png" 
+      class="w-full h-auto" 
+      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
+    >
+  </div>
+</div>
+
+
+<style>
+.gradient-text {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2.5em;
+  line-height:1.2;
+  font-weight: 900;
+}
+
+/* Remove white edges from transparent PNG */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+</style>
+
+---
+layout: center
+class: px-10 py-8
+background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
+text: white
+---
+
+
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<div class="space-y-8 text-lg">
+
+<v-clicks>
+
+<div class="bg-white bg-opacity-10 p-6 rounded-xl">
+<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS)</h2>
+<p style="font-size: 1.5rem; line-height: 2;">Antimicrobial Stewardship is a coordinated program that promotes the appropriate use of antimicrobials, improves patient outcomes, helps reduce antimicrobial resistance, and limits the spread of infections caused by multidrug-resistant organisms.</p>
+</div>
+
+</v-clicks>
+
+</div>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
+p {
+  margin-bottom: 1rem;
+}
+</style>
+
+
+
+---
+layout: default
+class: px-8 py-6
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 <style>
 /* Enhanced heading */
@@ -242,7 +533,7 @@ class: px-8 py-6
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: 0 0 1.5rem 0;
   line-height: 1.3;
 }
@@ -252,7 +543,7 @@ ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -297,6 +588,17 @@ strong {
 - In **Nigeria alone**, ≈263,000 AMR-related deaths in 2019 surpassing malaria and respiratory infections locally (Murray et al., 2022).
 <br>
 
+**- Resistance mechanism**
+
+  🔹 **Efflux pumps:** Bacteria actively expel antimicrobials to lower intracellular concentration.
+
+  🔹 **Decreased uptake: Reduced** drug entry prevents antimicrobial action.
+
+  🔹 **Inactivating enzymes:** Enzymes chemically destroy or modify the drug.
+
+  🔹 **Target overproduction:** Excess target dilutes drug effectiveness.
+
+  🔹 **Modified target:** Mutation alters the drug’s binding site.
 
 </v-clicks>
 
@@ -305,9 +607,9 @@ layout: default
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Resistance Mechanisms]{.gradient-heading}
+## [Antimicrobial Resistance (AMR) cont'd..]{.gradient-heading}
 
 <v-clicks>
 
@@ -333,10 +635,10 @@ layout: default
 class: px-6 py-8
 ---
 
-## [Key Drivers of AMR]{.gradient-heading}
+## [Leading Causes of AMR]{.gradient-heading}
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 <style>
 .gradient-heading {
@@ -345,7 +647,7 @@ class: px-6 py-8
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -431,82 +733,6 @@ class: px-6 py-8
 
 ---
 layout: center
-transition: fade-out
-class: flex items-center
----
-
-<div class="w-full flex justify-center items-center gap-1">
-  <!-- Text Content -->
-  <div class="text-center">
-    <h1 class="gradient-text mb-2">What is Antimicrobial Stewardship (AMS)?</h1>
-  </div>
-  
-  <!-- Image Container -->
-  <div class="w-[25%]">
-    <img 
-      src="/images/question.png" 
-      class="w-full h-auto" 
-      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
-    >
-  </div>
-</div>
-
-
-<style>
-.gradient-text {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-size: 2.5em;
-  line-height:1.2;
-  font-weight: 900;
-}
-
-/* Remove white edges from transparent PNG */
-img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-}
-</style>
-
----
-layout: center
-class: px-10 py-8
-background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
-text: white
----
-
-
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<div class="space-y-8 text-lg">
-
-<v-clicks>
-
-<div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS)</h2>
-<p style="font-size: 1.5rem; line-height: 2;">Antimicrobial stewardship (AMS) is a coordinated program that seeks to promote appropriate use of all anti-microbials, including antibiotics, antivirals, and antifungals.</p>
-</div>
-
-</v-clicks>
-
-</div>
-
-<style>
-.slidev-vclick-target {
-  transition: all 0.3s ease;
-}
-p {
-  margin-bottom: 1rem;
-}
-</style>
-
----
-layout: center
 class: px-10 py-2
 background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 text: white
@@ -514,7 +740,7 @@ text: white
 
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 # [Principles of Antimicrobial Stewardship]{.gradient-heading}
 
@@ -583,7 +809,7 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:1%; right:1%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 <!-- Left Column - Text Content -->
 
@@ -593,7 +819,8 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 
 <v-clicks>
 
-- **4.95 million deaths/year** globally linked to Antimicrobial Resistance (AMR) (Lancet 2022)
+- **4.7 million deaths** associated with bacterial AMR globally
+- **8.2 million deaths** if unaddressed
 - **50–70% of hospitalized patients** receive antimicrobials (WHO)
 - Increasing local AMR rates leading to **hard‑to‑treat infections**
 - **Resource constraints**: ICU beds, lab diagnostics
@@ -607,7 +834,7 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 
 <!-- Right Column - Image -->
 <div class="flex items-center justify-center">
-  <img src="/images/stats.png" class="w-full h-auto object-contain rounded-lg">
+  <img src="/images/stats2.png" class="w-full h-auto object-contain rounded-lg">
 </div>
 
 

@@ -53,6 +53,7 @@ head: |
   -webkit-text-fill-color: transparent;
   line-height:1.2;
   font-weight: 900;
+  font-size  : 3.5rem
 }
 
 .background-image {
@@ -164,33 +165,6 @@ src: ./pages/extra-class1.md
 <!-- ---
 src: ./pages/extra-class2.md
 --- -->
-
-
----
-layout: center
-transition: fade-out
-class: flex items-center
----
-
-# [Thanks For Listening!]{.gradient-text}
-
-Questions and Discussions
-
-<!-- CSS styling for .gradient-text class -->
-<style>
-    .gradient-text {
-       background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-      font-size: 2em; 
-      margin: 0;
-      text-align: center;
-    }
-   
-</style>
-
 
 
 <!-- <img width="313" alt="Screenshot 2025-05-07 at 18 31 17" src="https://github.com/user-attachments/assets/166f3f4a-3ac3-4066-a014-54eced5482b7" /> -->
