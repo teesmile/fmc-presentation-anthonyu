@@ -1,30 +1,30 @@
 ---
 layout: center
 transition: fade-out
+class: px-12 py-10 text-center
 ---
 
- # [The 4 Cs (Antibiotics) Associated with ]{.gradient-text}<span class="italic">Clostridioides difficile </span>[Infection (CDI)]{.gradient-text}
+# [The 4 C (Antibiotics) Associated with ]{.gradient-text}<span class="ital">Clostridioides difficile</span> [Infection (CDI)]{.gradient-text}
 
-<!-- CSS styling for .gradient-text class -->
 <style>
-    .gradient-text {
-      background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-      font-size: 1.2em; 
-      line-height:1.2;
-      font-weight: 900;
-    }
-   .italic {
+.gradient-text {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3.5rem; 
+  line-height: 1.2;
+  font-weight: 900;
+  display: inline;
+}
+
+.ital {
   font-style: italic;
-  display: inline; /* Ensures gradient continues */
-   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
 }
 </style>
 
@@ -87,6 +87,7 @@ class: px-8 py-6
 .compact-table {
   font-size: 0.8rem;
   margin-top: 0.1rem;
+  padding: 0 8;
 }
 
 .compact-table .risk-header {

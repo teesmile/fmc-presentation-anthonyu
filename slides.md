@@ -51,9 +51,11 @@ head: |
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height:1.2;
+  line-height: 1.2;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.5rem; /* Fixed size */
+  margin-bottom: 1.8rem;
+  display: block; /* Prevents layout shift */
 }
 
 .background-image {
@@ -62,54 +64,57 @@ head: |
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures full coverage */
-  z-index: 0;
+  object-fit: cover;
+  z-index: 1; /* Behind content */
   opacity: 1;
 }
 
 .content-wrapper {
   position: relative;
-  z-index: 0;
-  padding: 2rem;
-  border-radius: 8px;
-  display: inline-block;
-  margin-top: 0%;
-  transform: translateY(-30px);
+  z-index: 1;
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .next-button {
-  margin-top: 1.2rem;
-  display: inline-block;
-
-  padding: 0.5rem 0.5rem;
+  margin-top: 0rem;
+  padding: 0.4rem 0.4rem;
   background-color: rgba(3, 80, 105, 0.8);
   color: white !important;
-  border-radius: 2px;
+  border-radius: 4px;
   transition: all 0.3s ease;
-  
-}
-.author-name {
-  color: #666;
-  font-size: 0.75rem;
-  font-style: italic;
+  /* width: fit-content; */
+  font-size: 0.5rem;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .next-button:hover {
   background-color: rgb(3, 80, 105);
+  transform: translateX(4px);
+}
+
+.author-name {
+  display: flex;
+  align-items: center;
+  gap: 0.11rem;
+  color: white;
+  font-size: 0.5rem;
+  
 }
 </style>
 
-<!-- Full-size background image -->
-
 <img src="./images/whitebg.png" class="background-image">
 
-<!-- Content container -->
 <div class="content-wrapper">
-
-  # [Basics of Antimicrobial Stewardship in Hospitals]
-
-<div @click="$slidev.nav.next" class="author-name next-button">
-   Ugwuja Anthony C.  <carbon:arrow-right />
+  <h1 class="gradient-text">Basics of Antimicrobial Stewardship in Hospitals</h1>
+  
+  <div @click="$slidev.nav.next" class="next-button">
+    <span class="author-name italic">Ugwuja Anthony C.<carbon:arrow-right /></span>
   </div>
 </div>
 

@@ -30,27 +30,27 @@ text: white
 
 <ul class="space-y-4 text-xl">
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
   1940s: Sir Alexander Fleming warned about emerging antibiotic resistance
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
   1996-97: Term "Antimicrobial Stewardship" was coined by McGowan & Gerding; Incorporated into IDSA guidelines.
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
   2007: IDSA/SHEA formally endorse Hospital ASPs as a core strategy.
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  2009 to 13: CDC launches US national stewardship initiatives (Education -> Formal Strategy).
+  <span class="mr-3">•</span>
+  2009 to 13: CDC launched US national stewardship initiatives (Education -> Formal Strategy).
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
-  2016: WHO & UN General Assembly endorse global ASP; WHO issues toolkits.
+  <span class="mr-3">•</span>
+  2016: WHO & UN General Assembly endorsed global Antimicrobial Stewarship Programs (ASP); WHO issues toolkits.
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
   Mid-2010s Onwards: Accreditation bodies & governments (e.g., EU 2017) mandate ASPs globally.
 </li>
 </ul>
@@ -108,42 +108,42 @@ text: white
 
 <div class="w-full h-full flex flex-col justify-center">
 
-## Nigerian National Antimicrobial Resistance (AMR) Response{.gradient-heading}
+## [Nigerian National Antimicrobial Resistance (AMR) Response]{.gradient-heading}
 
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
 <v-clicks>
 
 <ul class="space-y-2 text-xl">
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
  2017-22: Launch of 1st National Action Plan (NAP-1.0) on AMR (One Health: Human, Animal, Env.).
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
 NAP-1.0 Mid-term Review: ~44% activities completed; Gaps identified (e.g., weak environmental/agricultural involvement).
 </li>
 <li class="flex items-start">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
 Oct 2024: Launch of NAP-2.0 (2024-2028) - Aligns with UN/Global Health Security.
 </li>
 <li class="flex items-start mt-6">
-  <span class="mr-3 text-blue-300">•</span>
+  <span class="mr-3">•</span>
   <strong>NAP-2.0 Priorities:</strong>
 </li>
 <li class="flex items-start ml-8">
-  <span class="mr-3 px-4 text-blue-300">-</span>
+  <span class="mr-3 px-4">-</span>
  Strengthen ASPs
 </li>
 <li class="flex items-start ml-8">
-  <span class="mr-3 px-4 text-blue-300">-</span>
+  <span class="mr-3 px-4">-</span>
   Enhance AMR Surveillance
 </li>
 <li class="flex items-start ml-8">
-  <span class="mr-3 px-4 text-blue-300">-</span>
+  <span class="mr-3 px-4">-</span>
   Promote Research
 </li>
 <li class="flex items-start ml-8">
-  <span class="mr-3 px-4 text-blue-300">-</span>
+  <span class="mr-3 px-4">-</span>
   Bolster Health Systems (One Health)
   
 </li>
@@ -187,12 +187,12 @@ class: px-10 py-8
 
 <div class="w-full h-full flex flex-col justify-center">
 
-## ASP Implementation in Nigerian Hospitals so far{.gradient-heading}
+## [ASP Implementation in Nigerian Hospitals so far]{.gradient-heading}
 
 <div class="bg-white bg-opacity-10 p-8 rounded-xl">
 <v-clicks>
 
-<ul class="space-y-4 text-lg leading-relaxed">
+<ul class="space-y-4  leading-relaxed">
 <li class="flex items-start">
   <span class="mr-3 ">•</span>
   Only 13% to 35% of Nigerian tertiary hospitals have formal ASP teams/committees (Ohaju-Obodo et al., 2020).
@@ -227,6 +227,6 @@ class: px-10 py-8
 ul li{
   list-style: none;
   padding-left: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 </style>

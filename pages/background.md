@@ -95,13 +95,13 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 .toc-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  width: 90%;
+  gap: 1.2rem;
+  width: 95%;
 }
 
 .toc-item {
-  font-size: 1.1rem;
-  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
   position: relative;
   padding-left: 1.5rem;
   cursor: pointer;
@@ -132,42 +132,65 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 
 .toc-divider {
   border-left: 2px solid rgba(9, 131, 172, 0.3);
-  height: 1.2rem;
-  margin: 0.3rem 0 0.3rem 0.8rem;
+  height: 0.8rem;
+  margin: 0.2rem 0 0.2rem 0.8rem;
 }
 </style>
 
 <CircleShape position="top:15%; left:-5%; size:60px; color:rgba(3, 80, 105, 0.4)" />
-<PillShape position="bottom:2%; right:2%; width:8%; height:16px; color:rgba(33,150,243,0.06)" />
+<PillShape position="bottom:-5%; right:-10%; width:8%; height:16px; color:rgba(33,150,243,0.06)" />
 
-# [Contents]{.toc-heading}
+# [contents]{.toc-heading}
 
 <div class="toc-container">
 
-<!-- Left Column -->
+<!-- Left Column (10 items) -->
 <div>
-<div class="toc-item" @click="$slidev.nav.go(2)">1. Team Members</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(4)">2. Introduction</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(7)">3. Principles of Antimicrobial Stewardship</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(5)">4. Nigeria Statistics</div>
+  <div class="toc-item" @click="$slidev.nav.go(2)">1. team members</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(3)">2. introduction</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(4)">3. antimicrobial resistance (amr)</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(5)">4. major resistant organisms</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(6)">5. leading causes of amr</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(7)">6. principles of ams</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(8)">7. why ams matters</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(9)">8. pharmaceutical importance of ams</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(10)">9. historical evolution of asps</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(11)">10. nigeria's amr response</div>
 </div>
 
-<!-- Right Column -->
+<!-- Right Column (10 items) -->
 <div>
-<div class="toc-item" @click="$slidev.nav.go(6)">5. Front-End Strategies</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(7)">6. Back-End Approaches</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(8)">7. Implementation Barriers</div>
-<div class="toc-divider"></div>
-<div class="toc-item" @click="$slidev.nav.go(9)">8. Case Studies</div>
+  <div class="toc-item" @click="$slidev.nav.go(12)">11. asp implementation in nigeria</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(13)">12. who aware classification</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(14)">13. ams techniques</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(15)">14. front-end interventions</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(16)">15. back-end interventions</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(17)">16. the 4 ds of prescribing</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(18)">17. the 4 c antibiotics for cdi</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(19)">18. pharmacist-led activities</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(20)">19. survey results</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(21)">20. conclusion</div>
 </div>
 
 </div>
-
 ---
 layout: center
 transition: fade-out
@@ -305,7 +328,7 @@ class: px-8 py-6
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Major Organisms that Pose a Serious Threat to Current Antimicrobial Therapies]{.gradient-heading2}
+## [Major Organisms that Pose Serious Threat to Current Antimicrobial Therapies]{.gradient-heading2}
 
 <div class="organism-grid">
   <!-- Column 1 -->
@@ -412,7 +435,6 @@ text: white
 
 .strong-emphasis {
   font-weight: 800;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
   color: rgba(255,255,255,0.1);
   padding: 0 0.2rem;
   font-size: 1.8rem;
@@ -606,7 +628,7 @@ strong {
 layout: default
 ---
 
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<CircleShape position="top:20%; left:-6%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 ## [Antimicrobial Resistance (AMR) cont'd..]{.gradient-heading}
@@ -803,7 +825,7 @@ text: white
 </style>
 
 ---
-layout: two-column
+layout: default
 class: px-10 py-8
 background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 ---

@@ -363,11 +363,11 @@ layout: default
 ## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
 
 
-<div class="mt-12 grid grid-cols-2 gap-8">
+<div class="mt-3 grid grid-cols-2 gap-8">
 
 <!-- Left Column - appears on first click -->
 <v-click>
-<div class="mt-5 pr-4">
+<div class="mt-2 pr-4">
 
 ### 💊 1.[Right Drug]{.gradient-subheading}
 
@@ -381,7 +381,7 @@ layout: default
 
 <!-- Right Column - appears on same click as left column -->
 <v-click>
-<div class="mt-5 pl-4">
+<div class="mt-2 pl-4">
 
 ### 📏 2. [Right Dose]{.gradient-subheading}
 
@@ -406,7 +406,7 @@ layout: default
 
 ## [The “4 Ds” of Antimicrobial Prescribing cont'd..]{.gradient-heading}
 
-<div class="mt-12 grid grid-cols-2 gap-8">
+<div class="mt-3 grid grid-cols-2 gap-8">
 
 <!-- Left Column -->
 <v-click>
@@ -439,7 +439,7 @@ layout: default
 
 - De-escalation reduces collateral damage to the microbiome and lowers resistance risk.
 
-- *Example: If vancomycin was started empirically for MRSA, but cultures show MSSA, switch to nafcillin or cefazolin5.*
+- *Example: If vancomycin was started empirically for MRSA, but cultures show MSSA, switch to nafcillin or cefazolinvpvpv.*
 
 </div>
 

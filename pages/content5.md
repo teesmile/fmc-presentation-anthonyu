@@ -14,7 +14,7 @@ class: text-center
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 2em; 
+      font-size: 4rem; 
       line-height:1.2;
       font-weight: 900;
     }
@@ -38,15 +38,6 @@ class: px-12 py-10
   margin-bottom: 1.5rem;
 }
 
-.gradient-subheading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.2rem;
-}
 </style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />

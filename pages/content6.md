@@ -12,7 +12,7 @@ transition: fade-out
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 1.5em; 
+      font-size: 2em; 
       line-height:1.2;
       font-weight: 900;
       text-align: center;
@@ -40,11 +40,9 @@ class: px-12 py-10 text-center
 
 ## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
-<br>
-
-<div class="mt-4 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-4xl font-bold mt-4 mb-6" style="color: rgb(11, 104, 134)">Formulary Development</div>
-<ul class="space-y-4">
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Formulary Development</div>
+<ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
   Leverage AWaRe categories to decide which antibiotics to stock and restrict
@@ -133,11 +131,9 @@ class: px-12 py-10 text-center
 
 ## *Pharmacist-Led Stewardship Activities cont'd..*{ .gradient-heading}
 
-<br>
-
-<div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-4 mb-6" style="color: rgb(9, 131, 172)">IV-to-Oral Switch</div>
-<ul class="space-y-3">
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(9, 131, 172)">IV-to-Oral Switch</div>
+<ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
  Identify patients eligible for transition from IV to oral antimicrobial.
@@ -174,13 +170,11 @@ class: px-12 py-10 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
-<br>
-
-<div class="mt-1 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-4xl font-bold mt-4 mb-6" style="color: rgb(11, 104, 134)">Education</div>
-<ul class="space-y-3">
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Education</div>
+<ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
   Teach medical and nursing staff AMS principles, AWaRe categories, dosing/duration norms, and infection control
@@ -220,11 +214,10 @@ transition: fade-in
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
-<br>
-<div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white py-2 p-5 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-1 mb-2" style="color: rgb(9, 131, 172)">Guideline Implementation</div>
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-4 mb-2" style="color: rgb(9, 131, 172)">Guideline Implementation</div>
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
@@ -262,11 +255,10 @@ class: px-12 py-8 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-# *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
+## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
-<br>
-<div class="mt-2 text-2xl text-left mx-auto max-w-4xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-4xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Leadership</div>
+<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Leadership</div>
 <ul class="space-y-3 py-2">
 <li class="flex items-start">
   <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
@@ -415,15 +407,15 @@ class: px-12 py-10 text-center
 
 # [Conclusion ]{.text-transparent .bg-clip-text .gradient-heading .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
-<div class="mt-4 text-xl text-left mx-auto max-w-4xl bg-white p-4 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
+<div class="text-xl  mt-2 mb-4 text-left mx-auto max-w-4xl bg-white p-8 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
 Antimicrobial Stewardship (AMS) is vital for <span>safe and effective hospital care.</span> <span>Pharmacists</span> are central to its success, helping improve patient outcomes and combat <span>resistance.</span> FMC Keffi has much to gain from AMS, and with strong leadership can become a model for stewardship excellence and example to other hospitals in Nigeria.
 
 </div>
 
 <style>
   li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
+    font-size: 1.5rem;
+    line-height: 2.5;
   }
   .max-w-4xl {
     max-width: 56rem;
@@ -484,19 +476,18 @@ class: px-12 py-10 text-center
 ---
 
 <style>
-    .gradient-text {
+    .gradient-thanks {
       background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 2em; 
+      font-size: 4.5rem; 
       line-height:1.2;
       font-weight: 900;
-      
     }
 </style>
 
-# [Thanks For Listening!]{.gradient-text}
+# [Thanks For Listening!]{.gradient-thanks}
 
 Questions and Discussions
