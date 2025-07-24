@@ -53,7 +53,7 @@ head: |
   -webkit-text-fill-color: transparent;
   line-height:1.2;
   font-weight: 900;
-  font-size  : 3.5rem
+  font-size: 2rem;
 }
 
 .background-image {
@@ -106,7 +106,7 @@ head: |
 <!-- Content container -->
 <div class="content-wrapper">
 
-  # [Basics of Antimicrobial Stewardship in Hospitals]{.gradient-text}
+  # [Basics of Antimicrobial Stewardship in Hospitals]
 
 <div @click="$slidev.nav.next" class="author-name next-button">
    Ugwuja Anthony C.  <carbon:arrow-right />
