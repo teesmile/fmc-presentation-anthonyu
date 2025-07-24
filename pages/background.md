@@ -88,20 +88,21 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   background-clip: text;
   color: transparent;
   font-weight: 800;
-  font-size: 2.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  margin-top: 3rem;
 }
 
 .toc-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-  width: 95%;
+  grid-template-columns: 2fr 2fr;
+  gap: 0.8rem;
+  width: 100%;
 }
 
 .toc-item {
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
   position: relative;
   padding-left: 1.5rem;
   cursor: pointer;
@@ -132,7 +133,7 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 
 .toc-divider {
   border-left: 2px solid rgba(9, 131, 172, 0.3);
-  height: 0.8rem;
+  height: 0.1rem;
   margin: 0.2rem 0 0.2rem 0.8rem;
 }
 </style>
@@ -140,7 +141,7 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 <CircleShape position="top:15%; left:-5%; size:60px; color:rgba(3, 80, 105, 0.4)" />
 <PillShape position="bottom:-5%; right:-10%; width:8%; height:16px; color:rgba(33,150,243,0.06)" />
 
-# [contents]{.toc-heading}
+# [Table of Contents]{.toc-heading}
 
 <div class="toc-container">
 
@@ -148,46 +149,48 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 <div>
   <div class="toc-item" @click="$slidev.nav.go(2)">1. team members</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(3)">2. introduction</div>
+  <div class="toc-item" @click="$slidev.nav.go(4)">2. introduction</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(4)">3. antimicrobial resistance (amr)</div>
+  <div class="toc-item" @click="$slidev.nav.go(5)">3. what is antimicrobial?</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(5)">4. major resistant organisms</div>
+  <div class="toc-item" @click="$slidev.nav.go(6)">4. major resistant organisms</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(6)">5. leading causes of amr</div>
+  <div class="toc-item" @click="$slidev.nav.go(8)">5. what is AMS?</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(7)">6. principles of ams</div>
+  <div class="toc-item" @click="$slidev.nav.go(10)">6. antimicrobial resistance (AMR)</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(8)">7. why ams matters</div>
+  <div class="toc-item" @click="$slidev.nav.go(13)">7. principles of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(9)">8. pharmaceutical importance of ams</div>
+  <div class="toc-item" @click="$slidev.nav.go(15)">8. antimicrobial stewardship programs (ASPs) evolution</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(10)">9. historical evolution of asps</div>
+  <div class="toc-item" @click="$slidev.nav.go(18)">9. WHO AWaRe Classification</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(11)">10. nigeria's amr response</div>
+   <div class="toc-item" @click="$slidev.nav.go(19)">10. AMS Techniques</div>
 </div>
 
 <!-- Right Column (10 items) -->
 <div>
-  <div class="toc-item" @click="$slidev.nav.go(12)">11. asp implementation in nigeria</div>
+<div class="toc-item" @click="$slidev.nav.go(20)">11. front-end interventions</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(13)">12. who aware classification</div>
+ <div class="toc-item" @click="$slidev.nav.go(21)">12. back-end interventions</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(14)">13. ams techniques</div>
+  <div class="toc-item" @click="$slidev.nav.go(22)">13. evidence & outcomes</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(15)">14. front-end interventions</div>
+  <div class="toc-item" @click="$slidev.nav.go(23)">14. the 4 ds of prescribing</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(16)">15. back-end interventions</div>
+  <div class="toc-item" @click="$slidev.nav.go(25)">15. the 4 c antibiotics for CDI</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(17)">16. the 4 ds of prescribing</div>
+  <div class="toc-item" @click="$slidev.nav.go(28)">16. pharmaceutical importance of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(18)">17. the 4 c antibiotics for cdi</div>
+  <div class="toc-item" @click="$slidev.nav.go(30)">17. pharmacist-led stewardship activities</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(19)">18. pharmacist-led activities</div>
+   <div class="toc-item" @click="$slidev.nav.go(37)">18. survey results</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(20)">19. survey results</div>
+  <div class="toc-item" @click="$slidev.nav.go(38)">19. conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(21)">20. conclusion</div>
+  <div class="toc-item" @click="$slidev.nav.go(39)">20. references</div>
+  <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(40)">21. thanks</div>
 </div>
 
 </div>
