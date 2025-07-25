@@ -120,7 +120,7 @@ head: |
 </div>
 <div class="fixed bottom-4 right-20 z-50">
   <a 
-    href="./presentation.pdf" 
+    href="./public/presentation.pdf" 
     download="AMS-presentation-anthony.pdf"
     class="inline-block p-3 bg-blue-500/20 hover:bg-green-500/30 rounded-full transition-all"
     title="Download PDF"
