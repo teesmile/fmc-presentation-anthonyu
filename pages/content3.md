@@ -340,17 +340,38 @@ class: px-10 py-8
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [Evidence & Outcomes]{.gradient-heading}
+## [Evidence and Outcomes]{.gradient-heading}
 
 <v-clicks>
 <ul class="bullet-list">
   <li>Both strategies are core components of ASPs</li>
   <li><span class="highlight">Hybrid models are common:</span></li>
-  <li>Pre-auth works well for Reserve drugs</li>
+  <li>Pre-authorization works well for Reserve drugs</li>
   <li>Audit/feedback is usually practiced on broad-spectrum use</li>
   <li>Studies show reduced resistance and improved prescribing behavior</li>
 </ul>
 </v-clicks>
+
+---
+layout: center
+transition: fade-out
+---
+
+<style>
+    .gradient-text {
+      background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      font-size: 2.5rem; 
+      line-height:1.2;
+      font-weight: 900;
+    }
+   
+</style>
+
+# [The “4 Ds” of Antimicrobial Prescribing]{.gradient-text}
 
 ---
 layout: default
@@ -361,8 +382,11 @@ layout: default
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
 
-## [The “4 Ds” of Antimicrobial Prescribing]{.gradient-heading}
+<v-click>
 
+- The 4Ds of Antimicrobial Prescribing is simply the appropriate use of antimicrobial with respect to the drug, dose, duration and diagnosis.
+
+</v-click>
 
 <div class="mt-3 grid grid-cols-2 gap-8">
 
@@ -447,3 +471,23 @@ layout: default
 </v-click>
 
 </div>
+
+<style>
+  li::before {
+  content: "•";
+  color: rgb(9, 131, 172);
+  font-size: 2rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.1rem;
+}
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+</style>

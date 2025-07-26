@@ -39,7 +39,7 @@ text: white
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
-  2007: IDSA/SHEA formally endorse Hospital ASPs as a core strategy.
+  2007: IDSA formally endorse Hospital ASPs as a core strategy.
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
@@ -47,11 +47,11 @@ text: white
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
-  2016: WHO & UN General Assembly endorsed global Antimicrobial Stewarship Programs (ASP); WHO issues toolkits.
+  2016: WHO and UN General Assembly endorsed global Antimicrobial Stewarship Programs (ASP); WHO issues toolkits.
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
-  Mid-2010s Onwards: Accreditation bodies & governments (e.g., EU 2017) mandate ASPs globally.
+  Mid-2010s Onwards: Accreditation bodies and governments (e.g., EU 2017) mandate ASPs globally.
 </li>
 </ul>
 
@@ -108,7 +108,7 @@ text: white
 
 <div class="w-full h-full flex flex-col justify-center">
 
-## [Nigerian National Antimicrobial Resistance (AMR) Response]{.gradient-heading}
+## [Nigeria National Antimicrobial Resistance (AMR) Response]{.gradient-heading}
 
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
 <v-clicks>
@@ -116,7 +116,7 @@ text: white
 <ul class="space-y-2 text-xl">
 <li class="flex items-start">
   <span class="mr-3">•</span>
- 2017-22: Launch of 1st National Action Plan (NAP-1.0) on AMR (One Health: Human, Animal, Env.).
+ 2017-22: Launch of 1st National Action Plan (NAP-1.0) on AMR (One Health: Human, Animal and Environment.).
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
@@ -187,7 +187,7 @@ class: px-10 py-8
 
 <div class="w-full h-full flex flex-col justify-center">
 
-## [ASP Implementation in Nigerian Hospitals so far]{.gradient-heading}
+## [ASP Implementation in Nigeria Hospitals so far]{.gradient-heading}
 
 <div class="bg-white bg-opacity-10 p-8 rounded-xl">
 <v-clicks>
@@ -199,7 +199,7 @@ class: px-10 py-8
 </li>
 <li class="flex items-start">
   <span class="mr-3 ">•</span>
-  Critical gaps exist: ~24%have local treatment guidelines & only ~12% enforce mandatory antibiotic review/approval.
+  Critical gaps exist: ~24% have local treatment guidelines and only ~12% enforce mandatory antibiotic review/approval.
 </li>
 <li class="flex items-start">
   <span class="mr-3 ">•</span>
@@ -207,11 +207,11 @@ class: px-10 py-8
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
-  Key barriers: Insufficient AMS/Prof. training, shortage of Prof-specialized pharmacists, & weak administrative support.
+  Key barriers: Insufficient AMS training, shortage of Prof-specialized pharmacists, and weak administrative support.
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
- Nigerian hospitals show "significant inadequacies" in ASP implementation.
+ Nigeria hospitals show "significant inadequacies" in ASP implementation.
 </li>
 </ul>
 

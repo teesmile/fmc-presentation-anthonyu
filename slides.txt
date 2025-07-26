@@ -38,3 +38,5 @@ slides-export/37.png
 slides-export/38.png
 slides-export/39.png
 slides-export/40.png
+slides-export/41.png
+slides-export/42.png

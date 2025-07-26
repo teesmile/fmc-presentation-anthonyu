@@ -147,21 +147,21 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 
 <!-- Left Column (10 items) -->
 <div>
-  <div class="toc-item" @click="$slidev.nav.go(2)">1. team members</div>
+  <div class="toc-item" @click="$slidev.nav.go(2)">1. Team members</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(4)">2. introduction</div>
+  <div class="toc-item" @click="$slidev.nav.go(4)">2. Introduction</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(5)">3. what is antimicrobial?</div>
+  <div class="toc-item" @click="$slidev.nav.go(5)">3. Antimicrobial definition</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(6)">4. major resistant organisms</div>
+  <div class="toc-item" @click="$slidev.nav.go(6)">4. Major resistant organisms</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(8)">5. what is AMS?</div>
+  <div class="toc-item" @click="$slidev.nav.go(8)">5. What is Antimicrobial Stewardship (AMS)?</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(10)">6. antimicrobial resistance (AMR)</div>
+  <div class="toc-item" @click="$slidev.nav.go(10)">6. Antimicrobial resistance (AMR)</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(13)">7. principles of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(13)">7. Principles of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(15)">8. antimicrobial stewardship programs (ASPs) evolution</div>
+  <div class="toc-item" @click="$slidev.nav.go(15)">8. Antimicrobial stewardship programs (ASPs) evolution</div>
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(18)">9. WHO AWaRe Classification</div>
   <div class="toc-divider"></div>
@@ -170,27 +170,25 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
 
 <!-- Right Column (10 items) -->
 <div>
-<div class="toc-item" @click="$slidev.nav.go(20)">11. front-end interventions</div>
+<div class="toc-item" @click="$slidev.nav.go(20)">10.a Front-end interventions</div>
   <div class="toc-divider"></div>
- <div class="toc-item" @click="$slidev.nav.go(21)">12. back-end interventions</div>
+ <div class="toc-item" @click="$slidev.nav.go(21)">10.b Back-end interventions</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(22)">13. evidence & outcomes</div>
+  <div class="toc-item" @click="$slidev.nav.go(22)">10.c Evidence & outcomes</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(23)">14. the 4 ds of prescribing</div>
+  <div class="toc-item" @click="$slidev.nav.go(23)">11. The 4 Ds of prescribing</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(25)">15. the 4 c antibiotics for CDI</div>
+  <div class="toc-item" @click="$slidev.nav.go(25)">12. The 4 c antibiotics for CDI</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(28)">16. pharmaceutical importance of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(28)">13. Pharmaceutical importance of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(30)">17. pharmacist-led stewardship activities</div>
+  <div class="toc-item" @click="$slidev.nav.go(30)">14. Pharmacist-led stewardship activities</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(37)">18. survey results</div>
+   <div class="toc-item" @click="$slidev.nav.go(38)">15. Survey results</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(38)">19. conclusion</div>
+  <div class="toc-item" @click="$slidev.nav.go(40)">16. Conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(39)">20. references</div>
-  <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(40)">21. thanks</div>
+  <div class="toc-item" @click="$slidev.nav.go(41)">27. References</div>
 </div>
 
 </div>
@@ -238,7 +236,7 @@ text: white
 <p style="font-size: 1.2rem; line-height: 2;">Antimicrobials are agents that either kill microorganisms (biocidal effect) or inhibit their growth (biostatic effect).</p>
 
 <p style="font-size: 1.2rem; line-height: 2; margin-top: 1rem;">
-While antimicrobials include agents that act against viruses, fungi, and parasites, this presentation focuses on <strong>bacterial infections</strong> and the use of <strong>antibiotics</strong>, which are the most commonly misused and most affected by resistance.
+While antimicrobials include agents that act against viruses, fungi, parasites, and bacterials, this presentation focuses on <strong>bacterial infections</strong> and the use of <strong>antibiotics</strong>, which are the most commonly misused and most affected by resistance.
 </p>
 </div>
 <div class="bg-white bg-opacity-10 p-3 rounded-xl">
@@ -353,7 +351,7 @@ class: px-8 py-6
     
     
   <div class="organism-item">
-      <div class="organism-name">ESBL-producing Enterobacteriaceae</div>
+      <div class="organism-name">Extended-Spectrum Beta-Lactamases (ESBL)-producing <i class="italic">Enterobacteriaceae</i></div>
       <div class="organism-resistance">Inactivate 3rd-gen cephalosporins</div>
     </div>
   </div>
@@ -513,8 +511,6 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 text: white
 ---
 
-
-
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
@@ -523,8 +519,15 @@ text: white
 <v-clicks>
 
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<h2 class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS)</h2>
-<p style="font-size: 1.5rem; line-height: 2;">Antimicrobial Stewardship is a coordinated program that promotes the appropriate use of antimicrobials, improves patient outcomes, helps reduce antimicrobial resistance, and limits the spread of infections caused by multidrug-resistant organisms.</p>
+<p class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS) is a coordinated program involving healthcare teams (multidisciplinary) that seeks to promote;</p>
+
+<ul class="text-xl space-y-6 pl-6" style="list-style-type: disc;">
+  <li class="pl-2">The <span class="font-semibold">appropriate use</span> of antimicrobials</li>
+  <li class="pl-2"><span class="font-semibold">Improves patient outcomes</span> through optimized treatment</li>
+  <li class="pl-2">Helps <span class="font-semibold">reduce antimicrobial resistance</span></li>
+  <li class="pl-2">Limits the <span class="font-semibold">spread of infections</span> from multidrug-resistant organisms</li>
+</ul>
+
 </div>
 
 </v-clicks>
@@ -535,8 +538,16 @@ text: white
 .slidev-vclick-target {
   transition: all 0.3s ease;
 }
-p {
+ul {
   margin-bottom: 1rem;
+}
+ .pl-2 li::before {
+  content: "•";
+  color: rgb(9, 131, 172);
+  font-size: 2rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 0.1rem;
 }
 </style>
 
@@ -660,7 +671,7 @@ layout: default
 class: px-8 py-10
 ---
 
-## [Leading Causes of AMR]{.gradient-heading}
+## [Leading Causes of Antimicrobial Resistance (AMR)]{.gradient-heading}
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
@@ -715,7 +726,7 @@ class: px-8 py-10
   <div class="bullet-item">
     <div class="bullet-icon">•</div>
     <div class="bullet-content">
-      <h3>Overuse & Misuse</h3>
+      <h3>Overuse and Misuse</h3>
       <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
     </div>
   </div>
@@ -765,7 +776,7 @@ text: white
 <div class="grid grid-cols-2 p-2 gap-6 mt-1" style="font-size: 1.2rem;">
 
 <!-- Column 1 -->
-<div class="space-y-6">
+<div class="space-y-10">
 <div v-click="1" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(11, 104, 134);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Appropriate Use of Antimicrobials</h3>
@@ -786,7 +797,7 @@ text: white
 </div>
 
 <!-- Column 2 -->
-<div class="space-y-6">
+<div class="space-y-10">
 <div v-click="2" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(9, 131, 172);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Education and Awareness</h3>
@@ -845,13 +856,13 @@ background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 
 <v-clicks>
 
-- **4.7 million deaths** associated with bacterial AMR globally
-- **8.2 million deaths** if unaddressed
+- **4.7 million deaths as at 2021** associated with bacterial AMR globally
+- **8.2 million deaths by 2050** if unaddressed
 - **50–70% of hospitalized patients** receive antimicrobials (WHO)
 - Increasing local AMR rates leading to **hard‑to‑treat infections**
 - **Resource constraints**: ICU beds, lab diagnostics
 - **Economic pressure**: Costs of last‑line drugs and extended stays
-- Alignment with **Nigeria's AMR National Action Plan 2024–2028**
+- Alignment with **Nigeria AMR National Action Plan 2024–2028**
 
 </v-clicks>
 </div>
