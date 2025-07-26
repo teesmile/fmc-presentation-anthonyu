@@ -290,7 +290,7 @@ class: px-12 py-8 text-center
 
 ---
 layout: center
-class: px-12 py-8
+class: px-12 py-8 relative
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
@@ -298,61 +298,158 @@ class: px-12 py-8
 
 # [Result from my survey (questionnaire)]{.gradient-heading}
 
-<div class="h-[40vh] w-full mt-6 flex items-end gap-8 justify-center border-b-2 border-l-2 border-gray-300">
+<div class="relative w-full mt-6">
+  <!-- Y-axis label -->
+  <div class="absolute left-0 top-1/2 -translate-y-1/2 -rotate-90 origin-left text-sm font-medium text-gray-600">
+    Response Rate (%)
+  </div>
 
-<!-- Question 1 -->
-<div class="flex flex-col items-center h-full">
-  <div class="w-20 rounded-t-md relative" 
-       style="height: 40%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
-    <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q1</div>
-    <div class="absolute -top-8 left-0 right-0 text-center">72%</div>
+  <div class="h-[40vh] ml-8 flex items-end gap-6 justify-center border-b-2 border-l-2 border-gray-300">
+    <!-- Question 1 -->
+    <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">72%</div>
+      <div class="w-16 rounded-t-md relative" 
+           style="height: 72%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q1</div>
+    </div>
+
+   <!-- Question 2 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">58%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 58%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q2</div>
+    </div>
+
+   <!-- Question 3 -->
+  <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">85%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 85%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q3</div>
+    </div>
+
+   <!-- Question 4 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">63%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 63%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q4</div>
+    </div>
+
+   <!-- Question 5 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">47%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 47%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q5</div>
+    </div>
+  </div>
+
+  <!-- X-axis label -->
+  <div class="text-center mt-3 text-sm font-medium text-gray-600">Survey Questions</div>
+</div>
+
+<style>
+  .gradient-heading {
+    background: linear-gradient(135deg, rgb(11, 104, 134), rgb(9, 131, 172));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+</style>
+
+---
+layout: center
+class: text-left
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<div class="w-[100%] mt-0">
+
+# Nigerian Hospitals with Active/Pilot AMS Programs
+
+| S/n | Hospital Name                     | Location          | Institution Type | AMS Status |
+|---|-----------------------------------|-------------------|------------------|------------|
+|1|Univ. Nigeria Teaching Hosp. (UNTH) |Ituku-Ozalla, Enugu|Fed. Teaching|Active|
+|2|Univ. College Hosp. Ibadan (UCH)|Ibadan, Oyo|Fed. Teaching|Active|
+|3|Lagos Univ. Teaching Hosp. (LUTH)|Ikeja, Lagos|Fed. Teaching|Active|
+|4|Univ. Calabar Teaching Hosp. (UCTH)|Calabar, CR|Fed. Teaching|Active|
+|5|Univ. Benin Teaching Hosp. (UBTH)|Benin City, Edo|Fed. Teaching|Active|
+|6|Univ. Ilorin Teaching Hosp. (UITH)|Ilorin, Kwara|Fed. Teaching|Planned|
+|7|ATB Univ. Teaching Hosp.|Bauchi, Bauchi|Fed. Teaching|Active|
+|8|Usman Danfodiyo Univ. Teaching Hosp.|Sokoto, Sokoto|Fed. Teaching|Active|
+|9|Enugu State Univ. Teaching Hosp.|Enugu, Enugu|State Teaching|Active|
+|10|Benue State Univ. Teaching Hosp.|Makurdi, Benue|State Teaching|Active|
+|11|National Orthopaedic Hosp. Igbobi|Lagos, Lagos|Fed. Specialist|Pilot|
+|12|Fed. Med. Centre, Jalingo|Jalingo, Taraba|Fed. Med. Centre|Active|
+|13|Fed. Med. Centre, Makurdi|Makurdi, Benue|Fed. Med. Centre|Active|
+|14|Taraba State Specialist Hosp.|Jalingo, Taraba|State Specialist|Active|
+|15|State Specialist Hosp. Yola|Yola, Adamawa|State Specialist|Active|
+|16|Dalhatu Araf Specialist Hosp.|Lafia, Nasarawa|State Specialist|Active|
+|17|Plateau State Specialist Hosp.|Jos, Plateau|State Specialist|Active|
+|18|Khalifa Rabiu Paediatric Hosp.|Kano, Kano|State Specialist|Active|
+|19|General Hosp. Gembu|Gembu, Taraba|State General|Active|
+|20|General Hosp. Takum|Takum, Taraba|State General|Active|
+|21|Babcock Univ. Teaching Hosp.|Ilishan-Remo, Ogun|Private Teaching|Active|
+|22|Limi Children's Hosp.|Abuja, FCT|Private Hosp.|Active|
+
+<div class="border-t border-gray-300 mt-2 pt-1 text-[0.6rem]">
+  <div class="flex justify-between">
+    <span class="text-gray-600">Total Hospitals: 22</span>
+    <span class="text-gray-600">Federal: 11 <strong class="text-[rgb(11,104,134)]">(50.0%)</strong></span>
+    <span class="text-gray-600">State: 9 <strong class="text-[rgb(11,104,134)]">(40.91%)</strong></span>
+    <span class="text-gray-600">Private: 2 <strong class="text-[rgb(11,104,134)]">(9.09%)</strong></span>
+    <span class="text-gray-600">Nigeria Hospitals: <strong class="text-[rgb(11,104,134)]">(~3,950)</strong></span>
+    <span class="text-gray-600">% Practicing AMS: <strong class="text-[rgb(11,104,134)]">(0.56%)</strong></span>
   </div>
 </div>
 
-<!-- Question 2 -->
-<div class="flex flex-col items-center h-full">
-  <div class="w-20 rounded-t-md relative"
-       style="height: 65%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
-    <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q2</div>
-    <div class="absolute -top-8 left-0 right-0 text-center">58%</div>
-  </div>
 </div>
 
-<!-- Question 3 -->
-<div class="flex flex-col items-center h-full">
-  <div class="w-20 rounded-t-md relative"
-       style="height: 30%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
-    <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q3</div>
-    <div class="absolute -top-8 left-0 right-0 text-center">85%</div>
-  </div>
-</div>
-
-<!-- Question 4 -->
-<div class="flex flex-col items-center h-full">
-  <div class="w-20 rounded-t-md relative"
-       style="height: 55%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
-    <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q4</div>
-    <div class="absolute -top-8 left-0 right-0 text-center">63%</div>
-  </div>
-</div>
-
-<!-- Question 5 -->
-<div class="flex flex-col items-center h-full">
-  <div class="w-20 rounded-t-md relative"
-       style="height: 75%; background: linear-gradient(to bottom, rgb(11, 104, 134), rgb(9, 131, 172))">
-    <div class="absolute -bottom-8 left-0 right-0 text-center font-medium">Q5</div>
-    <div class="absolute -top-8 left-0 right-0 text-center">47%</div>
-  </div>
-</div>
-
-</div>
-
-<!-- Y-axis label -->
-<div class="absolute left-4 bottom-[20vh] rotate-90 origin-left text-sm font-medium">Response Rate (%)</div>
-
-<!-- X-axis label -->
-<div class="text-center mt-2 text-sm font-medium">Survey Questions</div>
-
+<style>
+  h1 {
+    color: rgb(11, 104, 134);
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+  }
+  th {
+    background: linear-gradient(135deg, rgb(11, 104, 134), rgb(9, 131, 172));
+    color: white;
+    font-weight: 600;
+    padding: 0.2rem 0.4rem !important;
+    font-size: 0.7rem;
+  }
+  td {
+    padding: 0.15rem 0.4rem !important;
+    font-size: 0.65rem;
+    line-height: 1.1;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr {
+    border-bottom: 0.5px solid #e2e8f0;
+  }
+  .border-t {
+    border-top: 1px solid;
+  }
+  strong {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  span{
+    font-size: 0.8rem;
+  }
+</style>
 ---
 layout: center
 class: px-12 py-10 text-center
