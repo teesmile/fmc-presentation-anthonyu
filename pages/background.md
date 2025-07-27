@@ -188,7 +188,7 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(40)">16. Conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(41)">27. References</div>
+  <div class="toc-item" @click="$slidev.nav.go(41)">17. References</div>
 </div>
 
 </div>

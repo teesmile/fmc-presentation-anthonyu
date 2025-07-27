@@ -52,7 +52,7 @@ layout: default
 <br>
 <v-clicks>
 <ul id="aware-bullet">
-  <li>WHO groups antibiotics into <strong>Access</strong>, <strong>Watch</strong>, and <strong>Reserve</strong> to guide usage.</li>
+  <li>WHO grouped antibiotics into <strong>Access</strong>, <strong>Watch</strong>, and <strong>Reserve</strong> to guide usage.</li>
 </ul>
 </v-clicks>
 

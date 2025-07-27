@@ -207,7 +207,7 @@ class: px-10 py-8
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
-  Key barriers: Insufficient AMS training, shortage of Prof-specialized pharmacists, and weak administrative support.
+  Key barriers: Insufficient AMS training, shortage of Professional-specialized pharmacists, and weak administrative support.
 </li>
 <li class="flex items-start">
   <span class="mr-3">•</span>
