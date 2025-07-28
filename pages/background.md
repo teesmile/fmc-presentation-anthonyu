@@ -152,43 +152,43 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-item" @click="$slidev.nav.go(4)">2. Introduction</div>
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(5)">3. Antimicrobial definition</div>
+  <!-- <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(6)">4. Major resistant organisms</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(6)">4. Major resistant organisms</div>
+  <div class="toc-item" @click="$slidev.nav.go(8)">4. What is Antimicrobial Stewardship (AMS)?</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(8)">5. What is Antimicrobial Stewardship (AMS)?</div>
+  <!-- <div class="toc-item" @click="$slidev.nav.go(10)">6. Antimicrobial resistance (AMR)</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(10)">6. Antimicrobial resistance (AMR)</div>
+  <div class="toc-item" @click="$slidev.nav.go(13)">5. Principles of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(13)">7. Principles of AMS</div>
+  <!-- <div class="toc-item" @click="$slidev.nav.go(15)">8. Antimicrobial stewardship programs (ASPs) evolution</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(15)">8. Antimicrobial stewardship programs (ASPs) evolution</div>
+  <div class="toc-item" @click="$slidev.nav.go(18)">6. WHO AWaRe Classification</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(18)">9. WHO AWaRe Classification</div>
-  <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(19)">10. AMS Techniques</div>
+   <div class="toc-item" @click="$slidev.nav.go(19)">7. AMS Techniques</div>
 </div>
 
 <!-- Right Column (10 items) -->
 <div>
-<div class="toc-item" @click="$slidev.nav.go(20)">10.a Front-end interventions</div>
+<!-- <div class="toc-item" @click="$slidev.nav.go(20)">10.a Front-end interventions</div>
   <div class="toc-divider"></div>
  <div class="toc-item" @click="$slidev.nav.go(21)">10.b Back-end interventions</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(22)">10.c Evidence & outcomes</div>
+  <div class="toc-item" @click="$slidev.nav.go(22)">10.c Evidence & outcomes</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(23)">11. The 4 Ds of prescribing</div>
+  <div class="toc-item" @click="$slidev.nav.go(23)">8. The 4 Ds of prescribing</div>
+  <!-- <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(25)">12. The 4 c antibiotics for CDI</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(25)">12. The 4 c antibiotics for CDI</div>
+  <div class="toc-item" @click="$slidev.nav.go(28)">9. Pharmaceutical importance of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(28)">13. Pharmaceutical importance of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(30)">10. Pharmacist-led stewardship activities</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(30)">14. Pharmacist-led stewardship activities</div>
+   <div class="toc-item" @click="$slidev.nav.go(38)">11. Results and Data</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(38)">15. Survey results</div>
+  <div class="toc-item" @click="$slidev.nav.go(40)">12. Conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(40)">16. Conclusion</div>
-  <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(41)">17. References</div>
+  <div class="toc-item" @click="$slidev.nav.go(41)">13. References</div>
 </div>
 
 </div>
@@ -345,10 +345,10 @@ class: px-8 py-6
       <div class="organism-resistance">Resistant to nearly all beta-lactams, including carbapenems</div>
    </div>
     
-  <div class="organism-item">
+  <!-- <div class="organism-item">
       <div class="organism-name"><i class="italic"> Pseudomonas aeruginosa</i> </div>
       <div class="organism-resistance">Often resistant to multiple drug classes</div>
-    </div>
+    </div> -->
     
     
   <div class="organism-item">
@@ -552,6 +552,66 @@ ul {
 }
 </style>
 
+---
+layout: default
+class: px-10 py-8
+background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
+---
+
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
+<!-- Left Column - Text Content -->
+
+<div class="col-left" style="width: 50%; padding-right: 2rem;">
+
+## [Why AMS in the Hospitals]{.gradient-heading}
+
+- **4.7 million deaths as at 2021** associated with bacterial AMR globally
+- **8.2 million deaths by 2050** if unaddressed
+- **50–70% of hospitalized patients** receive antimicrobials (WHO)
+- Increasing local AMR rates leading to **hard to treat infections**
+- **Resource constraints**: ICU beds, lab diagnostics
+- **Economic pressure**: Costs of last‑line drugs and extended stays
+- Alignment with **Nigeria AMR National Action Plan 2024–2028**
+
+</div>
+
+
+
+<!-- Right Column - Image -->
+<div class="flex items-center justify-center">
+  <img src="/images/stats2.png" class="w-full h-auto object-contain rounded-lg">
+</div>
+
+
+
+<style>
+.col-left {
+  float: left;
+}
+.col-right {
+  float: right;
+}
+.two-columns {
+  display: flex;
+  gap: 1rem;
+}
+.slidev-vclick-target {
+  transition: opacity 400ms ease;
+}
+.slidev-vclick-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+ul {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+li {
+  padding-left: 0.5rem;
+}
+</style>
 
 
 ---
@@ -571,7 +631,7 @@ class: px-8 py-6
   color: transparent;
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1rem 0;
   line-height: 1.3;
 }
 
@@ -616,12 +676,12 @@ strong {
 
 ## [Antimicrobial Resistance (AMR)]{.gradient-heading}
 
-<v-clicks>
+
 
 - **Antimicrobial Resistance (AMR)** occurs when bacteria, viruses, fungi and parasites no longer respond to antimicrobial medicines (WHO).
-<br>
+
 - **1.27 million deaths** directly attributed to drug-resistant infections in 2019; **~5 million deaths** associated overall (Murray et al., 2022).
-<br>
+
 - In **Nigeria alone**, ≈263,000 AMR-related deaths in 2019 surpassing malaria and respiratory infections locally (Murray et al., 2022).
 <br>
 
@@ -637,7 +697,7 @@ strong {
 
   🔹 **Modified target:** Mutation alters the drug’s binding site.
 
-</v-clicks>
+
 
 ---
 layout: default
@@ -684,7 +744,7 @@ class: px-8 py-10
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -840,67 +900,4 @@ text: white
 }
 </style>
 
----
-layout: default
-class: px-10 py-8
-background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<!-- Left Column - Text Content -->
-
-<div class="col-left" style="width: 50%; padding-right: 2rem;">
-
-## [Why AMS Matters in the Hospitals]{.gradient-heading}
-
-<v-clicks>
-
-- **4.7 million deaths as at 2021** associated with bacterial AMR globally
-- **8.2 million deaths by 2050** if unaddressed
-- **50–70% of hospitalized patients** receive antimicrobials (WHO)
-- Increasing local AMR rates leading to **hard‑to‑treat infections**
-- **Resource constraints**: ICU beds, lab diagnostics
-- **Economic pressure**: Costs of last‑line drugs and extended stays
-- Alignment with **Nigeria AMR National Action Plan 2024–2028**
-
-</v-clicks>
-</div>
-
-
-
-<!-- Right Column - Image -->
-<div class="flex items-center justify-center">
-  <img src="/images/stats2.png" class="w-full h-auto object-contain rounded-lg">
-</div>
-
-
-
-<style>
-.col-left {
-  float: left;
-}
-.col-right {
-  float: right;
-}
-.two-columns {
-  display: flex;
-  gap: 1rem;
-}
-.slidev-vclick-target {
-  transition: opacity 400ms ease;
-}
-.slidev-vclick-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-ul {
-  margin-top: 0.5rem;
-  line-height: 1.6;
-}
-li {
-  padding-left: 0.5rem;
-}
-</style>
 

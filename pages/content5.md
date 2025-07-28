@@ -27,14 +27,15 @@ class: px-12 py-10
 ---
 
 <style>
-.gradient-heading {
+
+.gradient-subheading {
   background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -43,7 +44,7 @@ class: px-12 py-10
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## [PHARMACEUTICAL IMPORTANCE OF ANTIMICROBIAL STEWARDSHIP]{.gradient-heading}
+## [PHARMACEUTICAL IMPORTANCE OF ANTIMICROBIAL STEWARDSHIP]{.gradient-subheading}
 
 <br>
 <div class="space-y-3 text-2xl font-semibold">

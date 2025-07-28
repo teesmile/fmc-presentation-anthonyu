@@ -342,7 +342,6 @@ class: px-10 py-8
 
 ## [Evidence and Outcomes]{.gradient-heading}
 
-<v-clicks>
 <ul class="bullet-list">
   <li>Both strategies are core components of ASPs</li>
   <li><span class="highlight">Hybrid models are common:</span></li>
@@ -350,7 +349,6 @@ class: px-10 py-8
   <li>Audit/feedback is usually practiced on broad-spectrum use</li>
   <li>Studies show reduced resistance and improved prescribing behavior</li>
 </ul>
-</v-clicks>
 
 ---
 layout: center
@@ -381,7 +379,17 @@ layout: default
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-
+<style> 
+.gradient-subheading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+</style>
 <v-click>
 
 - The 4Ds of Antimicrobial Prescribing is simply the appropriate use of antimicrobial with respect to the drug, dose, duration and diagnosis.
@@ -489,5 +497,14 @@ layout: default
   font-weight: 800;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+}
+.gradient-subheading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 </style>

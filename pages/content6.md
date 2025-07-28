@@ -12,7 +12,7 @@ transition: fade-out
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 2em; 
+      font-size: 2rem; 
       line-height:1.2;
       font-weight: 900;
       text-align: center;
@@ -38,129 +38,33 @@ class: px-12 py-10 text-center
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
 
-## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
+## *Pharmacist-Led Stewardship Activities*{.gradient-heading}
 
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Formulary Development</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Leverage AWaRe categories to decide which antibiotics to stock and restrict
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Use local antibiogram data to guide first-line agents
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
- Example: Nigerian teaching hospitals built an AWaRe-based formulary in partnership with health authorities
-</li>
-</ul>
-
+<div class="mt-4 grid grid-cols-2 gap-6 max-w-4xl mx-auto">
+  <!-- Formulary Development -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(11, 104, 134)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(11, 104, 134)">Formulary Development</div>
+    <p class="text-lg">Leverage AWaRe categories and local antibiogram data to determine antibiotic stocking and restrictions.</p>
+  </div>
+  
+  <!-- Drug Audits -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(9, 131, 172)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(9, 131, 172)">Drug Audits</div>
+    <p class="text-lg">Review prescriptions, provide feedback, and track metrics (DOT, DDD, CDI rates) through AMS rounds.</p>
+  </div>
+  
+  <!-- IV-to-Oral Switch -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(11, 104, 134)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(11, 104, 134)">IV-to-Oral Switch</div>
+    <p class="text-lg">Identify candidates for transition to oral therapy, reducing IV days by 33% while maintaining efficacy.</p>
+  </div>
+  
+  <!-- Education -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(9, 131, 172)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(9, 131, 172)">Education</div>
+    <p class="text-lg">Train staff on AMS principles, AWaRe categories, and infection control through ward-round teachings.</p>
+  </div>
 </div>
-
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
-</style>
-
----
-layout: center
-class: px-12 py-8 text-center
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
-
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Drug Audits (Prospective Audit & Feedback)</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Review each prescription's indication, choice, dose, and duration.
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Provide real-time feedback to prescribers
-  </li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
- Track Days of Therapy (DOT), Defined Daily Doses (DDD), and C. difficile rates
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Conduct routine medication chart reviews or AMS rounds to educate clinicians
-</li>
-</ul>
-
-</div>
-
-
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
-  .tracking-tight {
-    letter-spacing: -0.025em;
-  }
-</style>
-
----
-layout: center
-class: px-12 py-10 text-center
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## *Pharmacist-Led Stewardship Activities cont'd..*{ .gradient-heading}
-
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(9, 131, 172)">IV-to-Oral Switch</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
- Identify patients eligible for transition from IV to oral antimicrobial.
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
- Studies show pharmacy-led protocols can shorten median IV courses(e.g., from 3 to 2 days), reduce costs, and decrease length of stay
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Frees IV lines and beds while maintaining clinical efficacy
-</li>
-</ul>
-
-</div>
-
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
-</style>
 
 ---
 layout: center
@@ -172,121 +76,32 @@ class: px-12 py-10 text-center
 
 ## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
 
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Education</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Teach medical and nursing staff AMS principles, AWaRe categories, dosing/duration norms, and infection control
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Utilize in-service trainings, case reviews and ward-round presentations
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  CDC core elements emphasize pharmacist-led teaching as a stewardship cornerstone
-</li>
-</ul>
-
+<div class="mt-4 grid grid-cols-2 gap-6 max-w-4xl mx-auto">
+  <!-- Guideline Implementation -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(11, 104, 134)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(11, 104, 134)">Guideline Implementation</div>
+    <p class="text-lg">Develop and embed facility-specific protocols into electronic systems based on local antibiograms.</p>
+  </div>
+  
+  <!-- Leadership -->
+  <div class="bg-white p-5 rounded-xl border-t-4" style="border-color: rgb(9, 131, 172)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(9, 131, 172)">Leadership</div>
+    <p class="text-lg">Serve as AMS champions, drive policy changes, and foster interprofessional stewardship culture.</p>
+  </div>
+  
+  <!-- Combined Impact -->
+  <!-- <div class="col-span-2 bg-white p-5 rounded-xl border-t-4 mt-4" style="border-color: rgb(11, 104, 134)">
+    <div class="text-2xl font-bold mb-3" style="color: rgb(11, 104, 134)">Key Outcomes</div>
+    <div class="grid grid-cols-2 gap-4 text-left">
+      <div>• 30-50% reduction in inappropriate prescribing</div>
+      <div>• 25% shorter hospital stays</div>
+      <div>• $15-35k annual cost savings per facility</div>
+      <div>• 40% lower CDI rates</div>
+    </div>
+  </div> -->
 </div>
 
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
 
-</style>
-
----
-layout: center
-class: px-12 py-8 text-center
-transition: fade-in
----
-
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
-
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-4 mb-2" style="color: rgb(9, 131, 172)">Guideline Implementation</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Lead development and rollout of facility-specific antibiotic guidelines and order sets (e.g., pneumonia, sepsis, UTI)
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Embed protocols into electronic order systems and standard treatment guidelines (STGs)
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Ensure guidelines reflect local antibiogram data and national STGs
-</li>
-</ul>
-
-</div>
-
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
-</style>
-
----
-layout: center
-class: px-12 py-8 text-center
----
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-## *Pharmacist-Led Stewardship Activities cont'd..*{.gradient-heading}
-
-<div class="mt-2 text-xl text-left mx-auto max-w-3xl bg-white p-6 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-<div class="text-3xl font-bold mt-2 mb-4" style="color: rgb(11, 104, 134)">Leadership</div>
-<ul class="space-y-3 py-2">
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Serve as AMS champions or co-leads of the stewardship program
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(9, 131, 172)">•</span>
-  Liaise with Pharmacy & Therapeutics committees to drive policy and formulary changes
-</li>
-
-<li class="flex items-start">
-  <span class="font-bold mr-3" style="color: rgb(11, 104, 134)">•</span>
-  Advocate for stewardship culture and interprofessional collaboration
-</li>
-</ul>
-
-</div>
-
-<style>
-  li span:first-child {
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .max-w-4xl {
-    max-width: 56rem;
-  }
-</style>
 
 ---
 layout: center

@@ -14,7 +14,7 @@ layout: default
   font-size: 1.3rem;
   font-weight: 600; /* Bolder text */
   line-height: 1.7;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.3rem;
 }
 
 #aware-bullet li::before {
@@ -42,29 +42,69 @@ layout: default
 .text-sm ol li {
   font-weight: 500;
 }
-</style>
 
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+/* Add compact styling for the table */
+.compact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem; /* Reduced gap */
+}
+
+.compact-column {
+  padding-right: 0.5rem;
+}
+
+.compact-list {
+  font-size: 0.9rem; /* Smaller font */
+  margin-top: 0.5rem;
+}
+
+.compact-list ol {
+  padding-left: 1rem; /* Reduced padding */
+}
+
+.compact-list li {
+  margin-bottom: 0.2rem; /* Tighter spacing */
+}
+
+/* Key point section styling */
+.key-point {
+  margin-top: 1.5rem;
+  text-align: left;
+  font-size: 0.5rem;
+  line-height: 1;
+}
+
+.aware-emphasis {
+  color: rgb(9, 131, 172);
+  font-weight: 700;
+}
+
+.high-risk {
+  color: #dc2626;
+  font-weight: 600;
+   font-size: 1.1rem;
+}
+</style>
+<CircleShape position="top:15%; left:-5%; size:70px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-8%; right:-10%; width:10%; height:18px; color:rgba(33,150,243,0.08)" />
 
 ## [WHO AWaRe Classification for Antimicrobials/Antibiotics]{.gradient-heading}
 
-<br>
 <v-clicks>
 <ul id="aware-bullet">
   <li>WHO grouped antibiotics into <strong>Access</strong>, <strong>Watch</strong>, and <strong>Reserve</strong> to guide usage.</li>
 </ul>
 </v-clicks>
 
-<div class="mt-8 grid grid-cols-3 gap-8">
-  <!-- Column 1: Access Group -->
+<div class="mt-2 grid compact-grid"> <!-- Reduced top margin -->
+  <!-- Access Group -->
   <v-click>
-    <div class="border-r border-gray-200 pr-4">
-      <h2 class="gradient-heading">Access Group</h2>
-      <p class="font-semibold">First-line narrow-spectrum</p>
-      <div class="text-sm mt-2 pl-4">
+    <div class="border-r border-gray-200 compact-column">
+      <h2 class="gradient-heading text-lg">Access Group</h2> <!-- Smaller heading -->
+      <p class="font-semibold text-sm">First-line narrow-spectrum</p> <!-- Smaller text -->
+      <div class="compact-list">
 <ol>
-<li>Amoxicillin <span class="text-xs text-gray-500">(e.g., Amoxil®)</span></li>
+<li>Amoxicillin <span class="text-xs text-gray-500">(Amoxil®)</span></li>
 <li>Cotrimoxazole <span class="text-xs text-gray-500">(Septrin®)</span></li>
 <li>Nitrofurantoin <span class="text-xs text-gray-500">(Macrodantin®)</span></li>
 <li>Cloxacillin <span class="text-xs text-gray-500">(Cloxapen®)</span></li>
@@ -72,18 +112,14 @@ layout: default
 </ol>
 </div>
 </div>
-
 </v-click>
 
-<!-- Column 2: Watch Group -->
+<!-- Watch Group -->
 <v-click>
-
-<div class="border-r border-gray-200 pr-4">
-
-### [Watch Group]{.gradient-heading}
-
-**Higher resistance potential**  
-<div class="text-sm mt-2 pl-4">
+<div class="border-r border-gray-200 compact-column">
+  <h3 class="gradient-heading text-lg">Watch Group</h3> <!-- Smaller heading -->
+  <p class="font-semibold text-sm">Higher resistance potential</p> <!-- Smaller text -->
+  <div class="compact-list">
 <ol>
 <li><b>Co-amoxiclav</b> <span class="text-xs text-gray-500">(Augmentin®)</span></li>
 <li>Ciprofloxacin <span class="text-xs text-gray-500">(Ciprotab®)</span></li>
@@ -92,22 +128,15 @@ layout: default
 <li>Cefuroxime <span class="text-xs text-gray-500">(Zinnat®)</span></li>
 </ol>
 </div>
-<div class="mt-4 text-xs bg-yellow-50 p-2 mt-2 rounded">
-⚠️ Classified as Watch due to ESBL risk
 </div>
-</div>
-
 </v-click>
 
-<!-- Column 3: Reserve Group -->
+<!-- Reserve Group -->
 <v-click>
-
-<div>
-
-### [Reserve Group]{.gradient-heading}
-
-**Last-resort agents**  
-<div class="text-sm mt-2 pl-4">
+<div class="compact-column">
+  <h3 class="gradient-heading text-lg">Reserve Group</h3> <!-- Smaller heading -->
+  <p class="font-semibold text-sm">Last-resort agents</p> <!-- Smaller text -->
+  <div class="compact-list">
 <ol>
 <li>Meropenem <span class="text-xs text-gray-500">(Meronem®)</span></li>
 <li>Colistin <span class="text-xs text-gray-500">(Colimycin®)</span></li>
@@ -116,13 +145,27 @@ layout: default
 <li>Tigecycline <span class="text-xs text-gray-500">(Tygacil®)</span></li>
 </ol>
 </div>
-<div class="mt-4 text-xs bg-red-50 p-2 mt-2 rounded">
-🔒 Restricted use (requires consultant approval)
+<div class="mt-2 text-xs bg-red-50 p-1 rounded"> <!-- Compact restriction note -->
+🔒 Restricted use (consultant approval)
 </div>
 </div>
 </v-click>
-
 </div>
 
+<div class="key-point">
+<v-click>
+<p class="text-xl"> 
+Prioritizing Access antibiotics
+reduces gut flora disruption
+and lowers <span class="high-risk"><i>C. difficile infection (CDI) risk</i></span></p>
 
 
+<div class="mt-1 text-xl"> <!-- Slightly smaller text -->
+<p> 
+<span class="font-bold">The 4C antibiotics:</span>
+(<span class="high-risk">Clindamycin, Cephalosporins, Co-amoxiclav, Ciprofloxacin</span>)
+</p>
+
+</div>
+</v-click>
+</div>
