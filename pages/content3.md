@@ -464,7 +464,7 @@ layout: default
 
 - De-escalation reduces collateral damage to the microbiome and lowers resistance risk.
 
-- *Example: If vancomycin was started empirically for MRSA, but cultures show MSSA, switch to nafcillin or cefazolinvpvpv.*
+- *Example: If vancomycin was started empirically for MRSA, but cultures show MSSA, switch to nafcillin or cefazolin.*
 
 </div>
 

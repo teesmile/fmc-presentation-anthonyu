@@ -236,8 +236,9 @@ text: white
 <p style="font-size: 1.2rem; line-height: 2;">Antimicrobials are agents that either kill microorganisms (biocidal effect) or inhibit their growth (biostatic effect).</p>
 
 <p style="font-size: 1.2rem; line-height: 2; margin-top: 1rem;">
-While antimicrobials include agents that act against viruses, fungi, parasites, and bacterials, this presentation focuses on <strong>bacterial infections</strong> and the use of <strong>antibiotics</strong>, which are the most commonly misused and most affected by resistance.
+Antimicrobials include agents that act against viruses, fungi, parasites, and bacterials. 
 </p>
+<!-- <p>this presentation focuses on <strong>bacterial infections</strong> and the use of <strong>antibiotics</strong>, which are the most commonly misused and most affected by resistance. </p> -->
 </div>
 <div class="bg-white bg-opacity-10 p-3 rounded-xl">
   <h2 class="text-xl font-bold mb-4" style="color: rgb(11, 104, 134);">
