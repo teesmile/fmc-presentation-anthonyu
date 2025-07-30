@@ -343,7 +343,7 @@ class: px-10 py-8
 ## [Evidence and Outcomes]{.gradient-heading}
 
 <ul class="bullet-list">
-  <li>Both strategies are core components of ASPs</li>
+  <li>Both strategies are core components of Antimicrobial Stewardship Programs (ASPs)</li>
   <li><span class="highlight">Hybrid models are common:</span></li>
   <li>Pre-authorization works well for Reserve drugs</li>
   <li>Audit/feedback is usually practiced on broad-spectrum use</li>

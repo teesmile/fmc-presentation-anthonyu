@@ -12,7 +12,7 @@ transition: fade-out
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 2rem; 
+      font-size: 3.5rem !important; 
       line-height:1.2;
       font-weight: 900;
       text-align: center;
@@ -24,7 +24,7 @@ transition: fade-out
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.5rem !important;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
@@ -34,6 +34,21 @@ transition: fade-out
 layout: center
 class: px-12 py-10 text-center
 ---
+
+<style>
+ .gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+</style>
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
@@ -102,7 +117,6 @@ class: px-12 py-10 text-center
 </div>
 
 
-
 ---
 layout: center
 class: px-12 py-8 relative
@@ -113,62 +127,7 @@ class: px-12 py-8 relative
 
 # [Result from my survey (questionnaire)]{.gradient-heading}
 
-<div class="relative w-full mt-6">
-  <!-- Y-axis label -->
-  <div class="absolute left-0 top-1/2 -translate-y-1/2 -rotate-90 origin-left text-sm font-medium text-gray-600">
-    Response Rate (%)
-  </div>
 
-  <div class="h-[40vh] ml-8 flex items-end gap-6 justify-center border-b-2 border-l-2 border-gray-300">
-    <!-- Question 1 -->
-    <div class="flex flex-col items-center justify-end h-full">
-      <div class="text-sm text-gray-700 mb-1">72%</div>
-      <div class="w-16 rounded-t-md relative" 
-           style="height: 72%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
-      </div>
-      <div class="mt-2 font-medium">Q1</div>
-    </div>
-
-   <!-- Question 2 -->
-   <div class="flex flex-col items-center justify-end h-full">
-      <div class="text-sm text-gray-700 mb-1">58%</div>
-      <div class="w-16 rounded-t-md relative"
-           style="height: 58%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
-      </div>
-      <div class="mt-2 font-medium">Q2</div>
-    </div>
-
-   <!-- Question 3 -->
-  <div class="flex flex-col items-center justify-end h-full">
-      <div class="text-sm text-gray-700 mb-1">85%</div>
-      <div class="w-16 rounded-t-md relative"
-           style="height: 85%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
-      </div>
-      <div class="mt-2 font-medium">Q3</div>
-    </div>
-
-   <!-- Question 4 -->
-   <div class="flex flex-col items-center justify-end h-full">
-      <div class="text-sm text-gray-700 mb-1">63%</div>
-      <div class="w-16 rounded-t-md relative"
-           style="height: 63%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
-      </div>
-      <div class="mt-2 font-medium">Q4</div>
-    </div>
-
-   <!-- Question 5 -->
-   <div class="flex flex-col items-center justify-end h-full">
-      <div class="text-sm text-gray-700 mb-1">47%</div>
-      <div class="w-16 rounded-t-md relative"
-           style="height: 47%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
-      </div>
-      <div class="mt-2 font-medium">Q5</div>
-    </div>
-  </div>
-
-  <!-- X-axis label -->
-  <div class="text-center mt-3 text-sm font-medium text-gray-600">Survey Questions</div>
-</div>
 
 <style>
   .gradient-heading {
@@ -176,6 +135,7 @@ class: px-12 py-8 relative
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-size: 2rem !important;
   }
 </style>
 
@@ -350,9 +310,9 @@ class: px-12 py-10 text-center
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
-      font-size: 4.5rem; 
+      font-size: 4.5rem !important; 
       line-height:1.2;
-      font-weight: 900;
+      font-weight: 900 !important;
     }
 </style>
 

@@ -1,258 +1,149 @@
+<div class="relative w-full mt-6">
+  <!-- Y-axis label -->
+  <div class="absolute left-0 top-1/2 -translate-y-1/2 -rotate-90 origin-left text-sm font-medium text-gray-600">
+    Response Rate (%)
+  </div>
+
+  <div class="h-[40vh] ml-8 flex items-end gap-6 justify-center border-b-2 border-l-2 border-gray-300">
+    <!-- Question 1 -->
+    <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">72%</div>
+      <div class="w-16 rounded-t-md relative" 
+           style="height: 72%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q1</div>
+    </div>
+
+   <!-- Question 2 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">58%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 58%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q2</div>
+    </div>
+
+   <!-- Question 3 -->
+  <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">85%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 85%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q3</div>
+    </div>
+
+   <!-- Question 4 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">63%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 63%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q4</div>
+    </div>
+
+   <!-- Question 5 -->
+   <div class="flex flex-col items-center justify-end h-full">
+      <div class="text-sm text-gray-700 mb-1">47%</div>
+      <div class="w-16 rounded-t-md relative"
+           style="height: 47%; background: linear-gradient(to top, rgb(11, 104, 134), rgb(9, 131, 172))">
+      </div>
+      <div class="mt-2 font-medium">Q5</div>
+    </div>
+  </div>
+
+  <!-- X-axis label -->
+  <div class="text-center mt-3 text-sm font-medium text-gray-600">Survey Questions</div>
+</div>
+
 ---
-layout: center
-transition: fade-out
+layout: default
+class: px-8 py-10
 ---
 
-# [Month 2 Week 4]{.gradient-text}
+## [Leading Causes of Antimicrobial Resistance (AMR)]{.gradient-heading}
 
-<!-- CSS styling for .gradient-text class -->
+<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
+<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
+
 <style>
-    .gradient-text {
-      background: linear-gradient(45deg, #4EC5D4 10%, #008080 20%);
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-      font-size: 2em; 
-    }
-   
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.bullet-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 3rem;
+  height: 65vh;
+}
+
+.bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.bullet-icon {
+  font-size: 1.8rem;
+  color: rgb(9, 131, 172);
+  margin-top: 0rem;
+}
+
+.bullet-content h3 {
+  color: rgb(24, 24, 24);
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.bullet-content p {
+  color:rgb(24, 24, 24);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
 </style>
 
----
-
-## [➡️ Arrow Functions in Javascript]{.text-teal-400}
-
-<br>
-
-An arrow function is a shorter way to write function expressions introduced in ES6.
-
-### Traditional Function
-
-```js
-function add(a, b) {
-  return a + b;
-}
-```
-
-### Arrow Function
-
-```js
-const add = (a, b) => a + b;
-
----
-
-### Key Features of Arrow Functions
-
-**1. Concise Syntax**
-
-Arrow functions can be written in one line for simple operations.
-
-```js
-const greet = (name) => `Hello, ${name}`;
-```
-
-- If only one parameter: no need for `()`
-- If more than one: wrap them in `()`
-- If body has only one expression: no `{}` or `return` needed
-
----
-
-**2. No `this` Binding**
-
-Arrow functions inherit `this` from their lexical context.
-
-```js
-function Person() {
-  this.age = 0;
-
-  setInterval(() => {
-    this.age++;
-    console.log(this.age); // `this` refers to Person
-  }, 1000);
-}
-new Person();
-```
-
-A regular function would lose the correct `this`.
-
----
-
-**3. Cannot Be Used as Constructors**
-
-```js
-const User = () => {};
-const u = new User(); // TypeError
-```
-
-**4. No `arguments` Object**
-
-```js
-const test = () => {
-  console.log(arguments); // ReferenceError
-};
-```
-
-Instead, use rest parameters:
-
-```js
-const test = (...args) => {
-  console.log(args); // OK
-};
-```
-
-**5. No `super` Binding**
-
-Avoid using arrow functions for class methods that rely on `super`.
-
----
-
-
-### Multi-line Arrow Function
-
-```js
-const multiply = (a, b) => {
-  const result = a * b;
-  return result;
-};
-```
-
-### Returning an Object
-
-Wrap the object in parentheses:
-
-```js
-const getUser = () => ({ name: "ojo", role: "instructor" });
-```
-
----
-
-## Ways to Create Event Listeners in JavaScript
-
-### 1. HTML Inline Event
-
-```html
-<button onclick="alert('Clicked!')">Click me</button>
-```
-
-### 2. DOM Element Property
-
-```js
-const btn = document.getElementById("myBtn");
-btn.onclick = () => {
-  alert("Clicked!");
-};
-```
-
-### 3. `addEventListener` Method (Preferred)
-
-```js
-const btn = document.getElementById("myBtn");
-btn.addEventListener("click", () => {
-  alert("Clicked!");
-});
-```
-
-You can remove it with `removeEventListener`.
-
----
-
-## Converting Between Objects and Arrays
-
-### Object → Array
-
-```js
-const user = { name: "Alex", age: 25 };
-```
-
-- `Object.keys(obj)` → `["name", "age"]`
-- `Object.values(obj)` → `["Alex", 25]`
-- `Object.entries(obj)` → `[["name", "Alex"], ["age", 25]]`
-
-### Array → Object
-
-```js
-const entries = [
-  ["name", "Alex"],
-  ["age", 25],
-];
-const obj = Object.fromEntries(entries);
-console.log(obj); // { name: "Alex", age: 25 }
-```
-
-You can also use `reduce()` for custom transformations.
-
----
-
-## How to Call a Function in JavaScript
-
-### Basic Function Call
-
-```js
-function greet(name) {
-  console.log("Hello, " + name);
-}
-greet("Sam"); // Hello, Sam
-```
-
-### Arrow Function Call
-
-```js
-const add = (a, b) => a + b;
-console.log(add(2, 3)); // 5
-```
-
-### Calling with Arguments
-
-```js
-function sum(x, y) {
-  return x + y;
-}
-let result = sum(4, 5); // result = 9
-```
-
----
-
-## Objects Have 3 Behaviors
-
-When defining properties using `Object.defineProperty`, you can set:
-
-### 1. Enumerable
-
-```js
-Object.defineProperty(obj, "name", {
-  value: "Alex",
-  enumerable: true,
-});
-```
-
-### 2. Configurable
-
-```js
-Object.defineProperty(obj, "name", {
-  configurable: true,
-});
-```
-
----
-
-### 3. Writable
-
-```js
-Object.defineProperty(obj, "name", {
-  writable: true,
-});
-```
-
-You can check these using:
-
-```js
-console.log(Object.getOwnPropertyDescriptor(obj, "name"));
-```
-
----
-
-## When to Use Arrow Functions
-
-- Short callbacks
-- Functional programming
-- Preserving `this` (e.g., in React)
+<div class="bullet-container">
+  <!-- Item 1 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Overuse and Misuse</h3>
+      <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Agricultural Use</h3>
+      <!-- <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O'Neill Review, 2016).</p> -->
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Infection Control</h3>
+      <!-- <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p> -->
+    </div>
+  </div>
+
+  <!-- Item 4 -->
+  <div class="bullet-item">
+    <div class="bullet-icon">•</div>
+    <div class="bullet-content">
+      <h3>Innovation Gap</h3>
+      <!-- <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021).</p> -->
+    </div>
+  </div>
+</div>

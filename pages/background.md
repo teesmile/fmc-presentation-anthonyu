@@ -150,22 +150,22 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-item" @click="$slidev.nav.go(2)">1. Team members</div>
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(4)">2. Introduction</div>
-  <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(5)">3. Antimicrobial definition</div>
+  <!-- <div class="toc-divider"></div>
+  <div class="toc-item" @click="$slidev.nav.go(5)">3. Antimicrobial definition</div> -->
   <!-- <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(6)">4. Major resistant organisms</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(8)">4. What is Antimicrobial Stewardship (AMS)?</div>
+  <div class="toc-item" @click="$slidev.nav.go(8)">3. Antimicrobial Stewardship (AMS)</div>
   <div class="toc-divider"></div>
   <!-- <div class="toc-item" @click="$slidev.nav.go(10)">6. Antimicrobial resistance (AMR)</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(13)">5. Principles of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(13)">4. Principles of AMS</div>
   <div class="toc-divider"></div>
   <!-- <div class="toc-item" @click="$slidev.nav.go(15)">8. Antimicrobial stewardship programs (ASPs) evolution</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(18)">6. WHO AWaRe Classification</div>
+  <div class="toc-item" @click="$slidev.nav.go(18)">5. WHO AWaRe Classification</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(19)">7. AMS Techniques</div>
+   <div class="toc-item" @click="$slidev.nav.go(19)">6. AMS Techniques</div>
 </div>
 
 <!-- Right Column (10 items) -->
@@ -176,19 +176,19 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(22)">10.c Evidence & outcomes</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(23)">8. The 4 Ds of prescribing</div>
+  <div class="toc-item" @click="$slidev.nav.go(23)">7. The 4 Ds of prescribing</div>
   <!-- <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(25)">12. The 4 c antibiotics for CDI</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(28)">9. Pharmaceutical importance of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(28)">8. Pharmaceutical importance of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(30)">10. Pharmacist-led stewardship activities</div>
+  <div class="toc-item" @click="$slidev.nav.go(30)">9. Pharmacist-led stewardship activities</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(38)">11. Results and Data</div>
+   <div class="toc-item" @click="$slidev.nav.go(38)">10. Results and Data</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(40)">12. Conclusion</div>
+  <div class="toc-item" @click="$slidev.nav.go(40)">11. Conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(41)">13. References</div>
+  <div class="toc-item" @click="$slidev.nav.go(41)">12. References</div>
 </div>
 
 </div>
@@ -437,7 +437,7 @@ text: white
 
 .strong-emphasis {
   font-weight: 800;
-  color: rgba(255,255,255,0.1);
+  color: rgba(9, 131, 172, 0.9);
   padding: 0 0.2rem;
   font-size: 1.8rem;
 }
@@ -517,8 +517,6 @@ text: white
 
 <div class="space-y-8 text-lg">
 
-<v-clicks>
-
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
 <p class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS) is a coordinated program involving healthcare teams (multidisciplinary) that seeks to promote;</p>
 
@@ -531,7 +529,6 @@ text: white
 
 </div>
 
-</v-clicks>
 
 </div>
 
@@ -635,6 +632,16 @@ class: px-8 py-6
   line-height: 1.3;
 }
 
+.resis {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.3;
+}
 /* Bullet list container */
 ul {
   list-style: none;
@@ -685,9 +692,16 @@ strong {
 - In **Nigeria alone**, ≈263,000 AMR-related deaths in 2019 surpassing malaria and respiratory infections locally (Murray et al., 2022).
 <br>
 
-**- Resistance mechanism**
+## [- Resistance mechanism]{.resis}
+<div class="w-[50%] ml-[20%] relative top-[-80px]">  <!-- Added relative positioning -->
+  <img 
+    src="/images/AMRmech.png" 
+    class="w-full h-auto" 
+    style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
+  >
+</div>
 
-  🔹 **Efflux pumps:** Bacteria actively expel antimicrobials to lower intracellular concentration.
+  <!-- 🔹 **Efflux pumps:** Bacteria actively expel antimicrobials to lower intracellular concentration.
 
   🔹 **Decreased uptake: Reduced** drug entry prevents antimicrobial action.
 
@@ -695,134 +709,11 @@ strong {
 
   🔹 **Target overproduction:** Excess target dilutes drug effectiveness.
 
-  🔹 **Modified target:** Mutation alters the drug’s binding site.
-
-
-
----
-layout: default
----
-
-<CircleShape position="top:20%; left:-6%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-### [Antimicrobial Resistance (AMR) cont'd..]{.gradient-heading}
-
-<v-clicks>
-
-<div class="w-[75%] ml-[10%]">
-    <img 
-      src="/images/AMRmech.png" 
-      class="w-full h-auto" 
-      style="mix-blend-mode: multiply; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1))"
-    >
-  </div>
-
-</v-clicks>
-
-<style>
-  img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-}
-</style>
-
----
-layout: default
-class: px-8 py-10
----
-
-## [Leading Causes of Antimicrobial Resistance (AMR)]{.gradient-heading}
-
-<CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
-<PillShape position="bottom:-5%; right:-10%; width:10%; height:20px; color:rgba(33,150,243,0.08)" />
-
-<style>
-.gradient-heading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: 700;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.bullet-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 2rem 3rem;
-  height: 65vh;
-}
-
-.bullet-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 2.5rem;
-}
-
-.bullet-icon {
-  font-size: 1.8rem;
-  color: rgb(9, 131, 172);
-  margin-top: 0rem;
-}
-
-.bullet-content h3 {
-  color: rgb(24, 24, 24);
-  font-weight: 600;
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-}
-
-.bullet-content p {
-  color:rgb(24, 24, 24);
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-</style>
-
-<div class="bullet-container">
-  <!-- Item 1 -->
-  <div class="bullet-item">
-    <div class="bullet-icon">•</div>
-    <div class="bullet-content">
-      <h3>Overuse and Misuse</h3>
-      <!-- <p>~30% of hospital antimicrobial prescriptions are unnecessary, fueling resistance and C. difficile infections (CDC, 2019).</p> -->
-    </div>
-  </div>
-
-  <!-- Item 2 -->
-  <div class="bullet-item">
-    <div class="bullet-icon">•</div>
-    <div class="bullet-content">
-      <h3>Agricultural Use</h3>
-      <!-- <p>70% of global antibiotic consumption is in livestock for growth promotion and disease prevention (O'Neill Review, 2016).</p> -->
-    </div>
-  </div>
-
-  <!-- Item 3 -->
-  <div class="bullet-item">
-    <div class="bullet-icon">•</div>
-    <div class="bullet-content">
-      <h3>Infection Control</h3>
-      <!-- <p>Inadequate hand hygiene, environmental cleaning, and isolation allow resistant organisms to spread in hospitals (WHO, 2021).</p> -->
-    </div>
-  </div>
-
-  <!-- Item 4 -->
-  <div class="bullet-item">
-    <div class="bullet-icon">•</div>
-    <div class="bullet-content">
-      <h3>Innovation Gap</h3>
-      <!-- <p>Insufficient development of novel antimicrobials; resistance outpaces new drug approvals (WHO, 2021).</p> -->
-    </div>
-  </div>
-</div>
+  🔹 **Modified target:** Mutation alters the drug’s binding site. -->
 
 
 ---
-layout: default
+layout: center
 class: px-10 py-2
 background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172))
 text: white
@@ -834,23 +725,23 @@ text: white
 
 # [Principles of Antimicrobial Stewardship]{.gradient-headinga}
 
-<div class="grid grid-cols-2 p-2 gap-6 mt-1" style="font-size: 1.2rem;">
+<div class="grid grid-cols-2 p-2 gap-6 mt-8" style="font-size: 1.2rem;">
 
 <!-- Column 1 -->
 <div class="space-y-10">
-<div v-click="1" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="1" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(11, 104, 134);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Appropriate Use of Antimicrobials</h3>
   
 </div>
 
-<div v-click="3" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="3" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(9, 131, 172);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Policy and Guideline Development</h3>
   
 </div>
 
-<div v-click="5" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="5" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(70, 160, 180);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Multidisciplinary Collaboration</h3>
   
@@ -859,19 +750,19 @@ text: white
 
 <!-- Column 2 -->
 <div class="space-y-10">
-<div v-click="2" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="2" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(9, 131, 172);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Education and Awareness</h3>
   
 </div>
 
-<div v-click="4" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="4" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(70, 160, 180);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Audit and Feedback Mechanisms</h3>
 
 </div>
 
-<div v-click="6" class="p-5 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
+<div v-click="6" class="p-2 rounded-lg border-l-4 cursor-pointer hover:bg-opacity-20 transition-all" 
      style="background-color: rgba(255,255,255,0.1); border-left-color: rgb(11, 104, 134);">
   <h3 class="font-bold mb-2" style="color: rgb(11, 60, 90);">Surveillance and Monitoring</h3>
  
@@ -894,9 +785,9 @@ text: white
   background-clip: text;
   color: transparent;
   font-weight: 700;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  margin-top: 3rem;
+  font-size: 2rem !important;
+  margin-bottom: 1rem;
+  margin-top: 2rem !important;
 }
 </style>
 

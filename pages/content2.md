@@ -34,8 +34,8 @@ layout: default
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.7rem !important;
+  margin-bottom: 1.2rem;
 }
 
 /* Make medicine list items bolder */
@@ -84,6 +84,10 @@ layout: default
   font-weight: 600;
    font-size: 1.1rem;
 }
+.sub{
+  color: rgb(9, 131, 172);
+  font-weight: 600;
+}
 </style>
 <CircleShape position="top:15%; left:-5%; size:70px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-8%; right:-10%; width:10%; height:18px; color:rgba(33,150,243,0.08)" />
@@ -100,7 +104,7 @@ layout: default
   <!-- Access Group -->
   <v-click>
     <div class="border-r border-gray-200 compact-column">
-      <h2 class="gradient-heading text-lg">Access Group</h2> <!-- Smaller heading -->
+      <h2 class="sub text-lg">Access Group</h2> <!-- Smaller heading -->
       <p class="font-semibold text-sm">First-line narrow-spectrum</p> <!-- Smaller text -->
       <div class="compact-list">
 <ol>
@@ -117,7 +121,7 @@ layout: default
 <!-- Watch Group -->
 <v-click>
 <div class="border-r border-gray-200 compact-column">
-  <h3 class="gradient-heading text-lg">Watch Group</h3> <!-- Smaller heading -->
+  <h3 class="sub text-lg">Watch Group</h3> <!-- Smaller heading -->
   <p class="font-semibold text-sm">Higher resistance potential</p> <!-- Smaller text -->
   <div class="compact-list">
 <ol>
@@ -134,7 +138,7 @@ layout: default
 <!-- Reserve Group -->
 <v-click>
 <div class="compact-column">
-  <h3 class="gradient-heading text-lg">Reserve Group</h3> <!-- Smaller heading -->
+  <h3 class="sub text-lg">Reserve Group</h3> <!-- Smaller heading -->
   <p class="font-semibold text-sm">Last-resort agents</p> <!-- Smaller text -->
   <div class="compact-list">
 <ol>
