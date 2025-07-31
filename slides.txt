@@ -29,14 +29,3 @@ slides-export/28.png
 slides-export/29.png
 slides-export/30.png
 slides-export/31.png
-slides-export/32.png
-slides-export/33.png
-slides-export/34.png
-slides-export/35.png
-slides-export/36.png
-slides-export/37.png
-slides-export/38.png
-slides-export/39.png
-slides-export/40.png
-slides-export/41.png
-slides-export/42.png
