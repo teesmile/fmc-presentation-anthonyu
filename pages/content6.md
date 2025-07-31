@@ -118,8 +118,8 @@ class: px-12 py-10 text-center
 
 
 ---
-layout: center
-class: px-12 py-8 relative
+layout: default
+color: #0983ac
 ---
 
 <CircleShape position="top:20%; left:-5%; size:80px; color:rgba(3, 80, 105, 0.55)" />
@@ -127,15 +127,109 @@ class: px-12 py-8 relative
 
 # [Result from my survey (questionnaire)]{.gradient-heading}
 
+<div style="max-width: 1200px; margin: auto;">
+<!-- Paste the entire SVG code below this line -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 700" style="font-family:sans">
+ 
+
+ <!-- AMS Awareness Pie Chart (62% Yes, 38% No) -->
+<g transform="translate(200, 160)">
+  <!-- Background Circle -->
+  <circle cx="0" cy="0" r="100" fill="#f5f7fa" stroke="#bdc3c7" stroke-width="2"/>
+
+  <!-- 62% Segment - YES -->
+  <path d="M0,0 L100,0 A100,100 0 1,1 -77.28,-63.73 Z" fill="#0983ac" />
+
+  <!-- 38% Segment - NO -->
+  <path d="M0,0 L-77.28,-63.73 A100,100 0 0,1 100,0 Z" fill="#e74c3c" />
+
+  <!-- Title -->
+  <text x="0" y="-120" text-anchor="middle" font-weight="bold" font-size="6" fill="#0983ac">AMS Awareness</text>
+
+  <!-- Percentages -->
+  <text x="-40" y="15" fill="white" font-size="5" font-weight="bold" text-anchor="middle">62%</text>
+  <text x="35" y="-25" fill="white" font-size="5" font-weight="bold" text-anchor="middle">38%</text>
+
+  <!-- Labels -->
+  <text x="35" y="-50" fill="#000000" font-size="4" text-anchor="middle">No</text>
+  <text x="-50" y="40" fill="#000000" font-size="4" text-anchor="middle">Yes</text>
+</g>
+
+<!-- Formal Training Pie Chart (24% Yes, 76% No) -->
+<g transform="translate(800, 160)">
+  <!-- Background Circle -->
+  <circle cx="0" cy="0" r="100" fill="#f5f7fa" stroke="#bdc3c7" stroke-width="2"/>
+
+  <!-- 24% Segment - YES -->
+  <path d="M0,0 L100,0 A100,100 0 0,1 22.78,97.42 Z" fill="#2ecc71"/>
+
+  <!-- 76% Segment - NO -->
+  <path d="M0,0 L22.78,97.42 A100,100 0 1,1 100,0 Z" fill="#f39c12"/>
+
+  <!-- Title -->
+  <text x="0" y="-120" text-anchor="middle" font-weight="bold" font-size="6" fill="#0983ac">Formal Training</text>
+
+  <!-- Percentages -->
+  <text x="40" y="35" fill="white" font-size="5" font-weight="bold" text-anchor="middle">24%</text>
+  <text x="-35" y="-20" fill="white" font-size="5" font-weight="bold" text-anchor="middle">76%</text>
+
+  <!-- Labels -->
+  <text x="48" y="60" fill="#000000" font-size="4" text-anchor="middle">Yes</text>
+  <text x="-50" y="5" fill="#000000" font-size="4" text-anchor="middle">No</text>
+</g>
+
+
+
+
+  <!-- Prescribing Practices (Centered Below Pie Charts) -->
+  <g transform="translate(250, 250)">
+    <text x="200" y="-20" font-weight="bold" font-size="6" text-anchor="middle" fill="#0983ac">Prescribing Practices:</text>
+    <g transform="translate(100, 0)">
+      <rect width="100" height="20" fill="#3498db"/>
+      <text x="110" y="15" font-size="4">Local Guidelines: 52% Alway/Often</text>
+    </g>
+    <g transform="translate(100, 30)">
+      <rect width="150" height="20" fill="#2ecc71"/>
+      <text x="160" y="15" font-size="4">Review Culture: 55% Always/Often</text>
+    </g>
+    <g transform="translate(100, 60)">
+      <rect width="50" height="20" fill="#e74c3c"/>
+      <text x="60" y="15" font-size="4">De-escalation: 40% Rarely</text>
+    </g>
+  </g>
+
+  <!-- Top Barriers (Moved Up, Aligned Neatly) -->
+  <g transform="translate(250, 420)">
+    <text x="0" y="-20" font-weight="bold"  font-size="6" fill="#0983ac">Top Barriers:</text>
+    <g transform="translate(0,0)">
+      <rect width="390" height="20" fill="#e74c3c"/>
+      <text x="400" y="15" font-size="4">Lack of trained staff (65%)</text>
+    </g>
+    <g transform="translate(0,30)">
+      <rect width="360" height="20" fill="#e74c3c"/>
+      <text x="400" y="15" font-size="4">Poor lab support (60%)</text>
+    </g>
+    <g transform="translate(0,60)">
+      <rect width="330" height="20" fill="#e74c3c"/>
+      <text x="400" y="15" font-size="4">Lack of AMS Team (55%)</text>
+    </g>
+  </g>
+
+
+</svg>
+</div>
+
 
 
 <style>
   .gradient-heading {
-    background: linear-gradient(135deg, rgb(11, 104, 134), rgb(9, 131, 172));
+    background: linear-gradient(135deg, rgb(11, 104, 134), #0983ac);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-size: 2rem !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
   }
 </style>
 
@@ -236,7 +330,7 @@ class: px-12 py-10 text-center
 # [Conclusion ]{.text-transparent .bg-clip-text .gradient-heading .bg-gradient-to-r .from-[rgb(11,104,134)] .to-[rgb(9,131,172)]}
 
 <div class="text-xl  mt-2 mb-4 text-left mx-auto max-w-4xl bg-white p-8 rounded-xl shadow-lg border-t-4" style="border-color: rgb(11, 104, 134)">
-Antimicrobial Stewardship (AMS) is vital for <span>safe and effective hospital care.</span> <span>Pharmacists</span> are central to its success, helping improve patient outcomes and combat <span>resistance.</span> FMC Keffi has much to gain from AMS, and with strong leadership can become a model for stewardship excellence and example to other hospitals in Nigeria.
+Antimicrobial Stewardship (AMS) is vital for <span>safe and effective patient care.</span> <span>Pharmacists</span> are central to its success, helping improve patient outcomes and combat <span>resistance.</span> FMC Keffi has much to gain from AMS, and with strong leadership can become a model for stewardship excellence and example to other hospitals in Nigeria.
 
 </div>
 
@@ -247,6 +341,19 @@ Antimicrobial Stewardship (AMS) is vital for <span>safe and effective hospital c
   }
   .max-w-4xl {
     max-width: 56rem;
+  }
+  span{
+     font-size: 1.8rem !important;
+  font-weight: 600;
+    color: #0983ac;
+  }
+    .gradient-heading {
+    background: linear-gradient(135deg, rgb(11, 104, 134), #0983ac);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
   }
 </style>
 

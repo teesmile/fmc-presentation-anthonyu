@@ -2,93 +2,6 @@
 layout: default
 ---
 
-<style>
-/* Targeted bullet styling only for the WHO point */
-#aware-bullet {
-  list-style: none;
-  padding-left: 1.5em;
-}
-
-#aware-bullet li {
-  position: relative;
-  font-size: 1.3rem;
-  font-weight: 600; /* Bolder text */
-  line-height: 1.7;
-  margin-bottom: 0.3rem;
-}
-
-#aware-bullet li::before {
-  content: "•";
-  color: rgb(9, 131, 172); /* Your theme color */
-  font-size: 1.8em;
-  position: absolute;
-  left: -0.8em;
-  top: -0.4em;
-  font-weight: bold;
-}
-
-.gradient-heading {
-  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1.7rem !important;
-  margin-bottom: 1.2rem;
-}
-
-/* Make medicine list items bolder */
-.text-sm ol li {
-  font-weight: 500;
-}
-
-/* Add compact styling for the table */
-.compact-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem; /* Reduced gap */
-}
-
-.compact-column {
-  padding-right: 0.5rem;
-}
-
-.compact-list {
-  font-size: 0.9rem; /* Smaller font */
-  margin-top: 0.5rem;
-}
-
-.compact-list ol {
-  padding-left: 1rem; /* Reduced padding */
-}
-
-.compact-list li {
-  margin-bottom: 0.2rem; /* Tighter spacing */
-}
-
-/* Key point section styling */
-.key-point {
-  margin-top: 1.5rem;
-  text-align: left;
-  font-size: 0.5rem;
-  line-height: 1;
-}
-
-.aware-emphasis {
-  color: rgb(9, 131, 172);
-  font-weight: 700;
-}
-
-.high-risk {
-  color: #dc2626;
-  font-weight: 600;
-   font-size: 1.1rem;
-}
-.sub{
-  color: rgb(9, 131, 172);
-  font-weight: 600;
-}
-</style>
 <CircleShape position="top:15%; left:-5%; size:70px; color:rgba(3, 80, 105, 0.55)" />
 <PillShape position="bottom:-8%; right:-10%; width:10%; height:18px; color:rgba(33,150,243,0.08)" />
 
@@ -173,3 +86,90 @@ and lowers <span class="high-risk"><i>C. difficile infection (CDI) risk</i></spa
 </div>
 </v-click>
 </div>
+
+<style>
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 1.7rem !important;
+  margin-bottom: 1.2rem;
+}
+/* Targeted bullet styling only for the WHO point */
+#aware-bullet {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+#aware-bullet li {
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 600; /* Bolder text */
+  line-height: 1.7;
+  margin-bottom: 0.3rem;
+}
+
+#aware-bullet li::before {
+  content: "•";
+  color: rgb(9, 131, 172); /* Your theme color */
+  font-size: 1.8em;
+  position: absolute;
+  left: -0.8em;
+  top: -0.4em;
+  font-weight: bold;
+}
+
+
+/* Make medicine list items bolder */
+.text-sm ol li {
+  font-weight: 500;
+}
+
+/* Add compact styling for the table */
+.compact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem; /* Reduced gap */
+}
+
+.compact-column {
+  padding-right: 0.5rem;
+}
+
+.compact-list {
+  font-size: 0.9rem; /* Smaller font */
+  margin-top: 0.5rem;
+}
+
+.compact-list ol {
+  padding-left: 1rem; /* Reduced padding */
+}
+
+.compact-list li {
+  margin-bottom: 0.2rem; /* Tighter spacing */
+}
+
+/* Key point section styling */
+.key-point {
+  margin-top: 1.5rem;
+  text-align: left;
+  font-size: 0.5rem;
+  line-height: 1;
+}
+
+.aware-emphasis {
+  color: rgb(9, 131, 172);
+  font-weight: 700;
+}
+
+.high-risk {
+  color: #dc2626;
+  font-weight: 600;
+   font-size: 1.1rem;
+}
+.sub{
+  color: rgb(9, 131, 172);
+  font-weight: 600;
+}
+  </style>

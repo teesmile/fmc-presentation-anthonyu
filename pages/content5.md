@@ -35,7 +35,7 @@ class: px-12 py-10
   color: transparent;
   font-weight: bold;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 

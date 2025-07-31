@@ -159,13 +159,13 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-divider"></div>
   <!-- <div class="toc-item" @click="$slidev.nav.go(10)">6. Antimicrobial resistance (AMR)</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(13)">4. Principles of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(12)">4. Principles of AMS</div>
   <div class="toc-divider"></div>
   <!-- <div class="toc-item" @click="$slidev.nav.go(15)">8. Antimicrobial stewardship programs (ASPs) evolution</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(18)">5. WHO AWaRe Classification</div>
+  <div class="toc-item" @click="$slidev.nav.go(14)">5. WHO AWaRe Classification</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(19)">6. AMS Techniques</div>
+   <div class="toc-item" @click="$slidev.nav.go(15)">6. AMS Techniques</div>
 </div>
 
 <!-- Right Column (10 items) -->
@@ -176,19 +176,19 @@ background: linear-gradient(-45deg, rgba(11, 104, 134, 0.08), rgba(9, 131, 172, 
   <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(22)">10.c Evidence & outcomes</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(23)">7. The 4 Ds of prescribing</div>
+  <div class="toc-item" @click="$slidev.nav.go(19)">7. The 4 Ds of prescribing</div>
   <!-- <div class="toc-divider"></div>
   <div class="toc-item" @click="$slidev.nav.go(25)">12. The 4 c antibiotics for CDI</div> -->
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(28)">8. Pharmaceutical importance of AMS</div>
+  <div class="toc-item" @click="$slidev.nav.go(23)">8. Pharmaceutical importance of AMS</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(30)">9. Pharmacist-led stewardship activities</div>
+  <div class="toc-item" @click="$slidev.nav.go(24)">9. Pharmacist-led stewardship activities</div>
   <div class="toc-divider"></div>
-   <div class="toc-item" @click="$slidev.nav.go(38)">10. Results and Data</div>
+   <div class="toc-item" @click="$slidev.nav.go(27)">10. Results and Data</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(40)">11. Conclusion</div>
+  <div class="toc-item" @click="$slidev.nav.go(29)">11. Conclusion</div>
   <div class="toc-divider"></div>
-  <div class="toc-item" @click="$slidev.nav.go(41)">12. References</div>
+  <div class="toc-item" @click="$slidev.nav.go(30)">12. References</div>
 </div>
 
 </div>
@@ -469,14 +469,14 @@ transition: fade-out
 class: flex items-center
 ---
 
-<div class="w-full flex justify-center items-center gap-1">
+<div class="w-full flex justify-center items-center">
   <!-- Text Content -->
   <div class="text-center">
     <h1 class="gradient-text mb-2">What is Antimicrobial Stewardship (AMS)?</h1>
   </div>
   
   <!-- Image Container -->
-  <div class="w-[25%]">
+  <div class="w-[35%]">
     <img 
       src="/images/question.png" 
       class="w-full h-auto" 
@@ -518,7 +518,7 @@ text: white
 <div class="space-y-8 text-lg">
 
 <div class="bg-white bg-opacity-10 p-6 rounded-xl">
-<p class="text-2xl font-bold mb-4" style="color: rgb(11, 104, 134);">Antimicrobial Stewardship (AMS) is a coordinated program involving healthcare teams (multidisciplinary) that seeks to promote;</p>
+<p class="gradient-text">Antimicrobial Stewardship (AMS) is a coordinated program involving healthcare professionals (multidisciplinary) that seeks to promote;</p>
 
 <ul class="text-xl space-y-6 pl-6" style="list-style-type: disc;">
   <li class="pl-2">The <span class="font-semibold">appropriate use</span> of antimicrobials</li>
@@ -533,6 +533,18 @@ text: white
 </div>
 
 <style>
+
+.gradient-text {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.7rem;
+  line-height:1.8;
+  font-weight: 600;
+}
+
 .slidev-vclick-target {
   transition: all 0.3s ease;
 }
@@ -547,6 +559,11 @@ ul {
   left: -1.5rem;
   top: 0.1rem;
 }
+span{
+     font-size: 1.5rem !important;
+  font-weight: 600;
+    color: #0983ac;
+  }
 </style>
 
 ---
@@ -608,6 +625,17 @@ ul {
 li {
   padding-left: 0.5rem;
 }
+.gradient-heading {
+  background: linear-gradient(-45deg, rgb(11, 104, 134), rgb(9, 131, 172));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.8rem;
+  line-height:1.8;
+  font-weight: 600;
+}
+
 </style>
 
 
